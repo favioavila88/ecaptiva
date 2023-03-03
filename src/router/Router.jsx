@@ -1,7 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom'
-import App from '../components/App'
 import Error404 from '../components/pages/Error404'
-import { Children } from 'react'
 import HomePage from '../components/pages/HomePage'
 import Company from '../components/pages/Company'
 import Services from '../components/pages/Services'
@@ -10,14 +8,15 @@ import Careers from '../components/pages/Careers'
 import Blog, { loaderBlog } from '../components/pages/Blog'
 import Post, { loaderPost } from '../components/pages/Post'
 import GetAnEstimate from '../components/pages/GetanEstimate'
+import Templates from '../components/templates/Templates'
 
 const router =createBrowserRouter([
 
     {
         path:"/",
-        element: <App />,
+        element: <Templates />,
         errorElement: <Error404 />,
-        Children:[
+        children:[
             {
                 errorElement: <Error404 />,
                 children: [
