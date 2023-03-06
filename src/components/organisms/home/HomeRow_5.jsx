@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_5.css';
+import '../../Styles/pages/home/HomeRow_5.css';
 
 const HomeRow_5 = () => {
     return (

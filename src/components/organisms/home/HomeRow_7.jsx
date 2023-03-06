@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_7.css';
+import '../../Styles/pages/home/HomeRow_7.css';
 
 import img1 from '../../../assets/organisms/home/homeRow_7/27-crackle-500x360.png'
 import img2 from '../../../assets/organisms/home/homeRow_7/26-oasis-collections-3-500x360.png'

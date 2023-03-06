@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_8.css';
+import '../../Styles/pages/home/HomeRow_8.css';
 
 import usa from '../../../assets/organisms/home/homeRow_8/usa-turq.png'
 import chat from '../../../assets/organisms/home/homeRow_8/chat-turq.png'

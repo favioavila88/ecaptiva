@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_4.css';
+import '../../Styles/pages/home/HomeRow_4.css';
 
 import television_academy from '../../../assets/organisms/home/homeRow_4/television-academy.png';
 import evernote from '../../../assets/organisms/home/homeRow_4/evernote.png';
