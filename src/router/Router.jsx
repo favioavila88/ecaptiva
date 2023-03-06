@@ -8,6 +8,7 @@ import Careers from '../components/pages/Careers'
 import Blog, { loaderBlog } from '../components/pages/Blog'
 import Post, { loaderPost } from '../components/pages/Post'
 import Templates from '../components/templates/Templates'
+import GetAnEstimate from '../components/pages/GetAnEstimate'
 
 const router =createBrowserRouter([
 
@@ -49,6 +50,12 @@ const router =createBrowserRouter([
                         element: <Post />,
                         loader: loaderPost,
                     },
+                    {
+                        path: "/getAnEstimate",
+                        element:<GetAnEstimate />,
+                        loader: loaderPost,
+                    },
+
                 ]
             }
         ]
