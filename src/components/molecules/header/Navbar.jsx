@@ -4,7 +4,7 @@ import '../../Styles/molecules/header/Navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
       <nav className='content-navbar'>
             <ul className='text-navbar'>
               <li><NavLink to="/company" className="navbar-link">COMPANY</NavLink></li>

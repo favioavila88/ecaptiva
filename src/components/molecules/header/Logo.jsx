@@ -5,7 +5,7 @@ import '../../Styles/molecules/header/Logo.css'
 
 const Logo = () => {
   return (
-    <div>
+    <div className='logo'>
         <NavLink to="/" ><img className='logo-header' src={logoCaptivaHeader1} alt='Logo Captiva 1'/></NavLink>      
     </div>
   )

@@ -1,5 +1,7 @@
+ 
   .text-navbar {
     display: flex;
+    align-items: center;
   }
 
   .navbar-link {

@@ -1,0 +1,28 @@
+.row-11 {
+    background-color: #262626;
+}
+
+
+.row-11-column{
+    display: flex;
+}
+
+.row-11-img-section {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.row-11-img-section img {
+    width: 100%;
+    height: auto;
+    transition: transform .3s ease-in-out;
+}
+
+.row-11-img-section:hover img {
+    transform: scale(1.1);
+}

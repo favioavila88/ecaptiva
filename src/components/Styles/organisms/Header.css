@@ -1,7 +1,14 @@
-.header {
-    display: flex;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-div {
-    display: inline-block;
-  }
+.header {
+
+}
+
+.contain-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
