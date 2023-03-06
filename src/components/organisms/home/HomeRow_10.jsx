@@ -1,4 +1,4 @@
-import '../../Styles/pages/home/home/HomeRow_10.css';
+import '../../Styles/pages/home/HomeRow_10.css';
 
 const HomeRow_10 = () => {
     return (
