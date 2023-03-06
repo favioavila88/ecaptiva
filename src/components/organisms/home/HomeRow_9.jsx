@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_9.css';
+import '../../Styles/pages/home/HomeRow_9.css';
 
 import react from '../../../assets/organisms/home/homeRow_9/react.png';
 import node from '../../../assets/organisms/home/homeRow_9/node.png';

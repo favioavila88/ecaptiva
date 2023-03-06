@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_11.css';
+import '../../Styles/pages/home/home/HomeRow_11.css';
 
 import bs11a1 from '../../../assets/organisms/home/homeRow_11/BS11a1.png'
 import bs11a2 from '../../../assets/organisms/home/homeRow_11/BS11a2.png'

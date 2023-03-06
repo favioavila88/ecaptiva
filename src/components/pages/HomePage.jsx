@@ -7,6 +7,7 @@ import HomeRow_8 from '../organisms/home/HomeRow_8'
 import HomeRow_4 from '../organisms/home/HomeRow_4'
 import HomeRow_5 from '../organisms/home/HomeRow_5'
 import HomeRow_7 from '../organisms/home/HomeRow_7'
+import HomeRow_9 from '../organisms/home/HomeRow_9'
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
           <HomeRow_6 />
           <HomeRow_7/>
           <HomeRow_8 />
+          <HomeRow_9 />          
         </div>
       </div>
     </div>
