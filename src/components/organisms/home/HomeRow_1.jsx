@@ -12,7 +12,7 @@ const HomeRow_1 = () => {
                         <div className='content-row-1'>
                             <h1 className='row-1-title'>Brilliant minds <br /> build great products.</h1>
                             <h2 className='row-1-subtitle'>We have them.</h2>
-                            <span><NavLink to="/company"><a className="row-1-botton">FIND OUT MORE</a></NavLink></span>
+                            <a><NavLink to="/company"><spam className="row-1-botton">FIND OUT MORE</spam></NavLink></a>
                         </div>
                     </div>
                 </div>
