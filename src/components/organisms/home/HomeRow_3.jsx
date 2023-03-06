@@ -1,4 +1,4 @@
-import '../../Styles/organisms/home/HomeRow_3.css';
+import '../../Styles/pages/home/HomeRow_3.css';
 import fastforward from '../../../assets/organisms/home/homeRow_3/fast-forward.png';
 
 const HomeRow_3 = () => {
