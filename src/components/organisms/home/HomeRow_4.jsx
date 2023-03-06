@@ -19,7 +19,7 @@ const HomeRow_4 = () => {
                 <div className="row-4-container">
                     <div className="row-4-title-text"><h3 className="row-4-title">BRANDS THAT TRUST US</h3></div>
                     <div className="row-4-images-container">
-                        <a><img className="row-4-img-1" src={television_academy} /></a>
+                        <img className="row-4-img-1" src={television_academy} />
                         <img className="row-4-img-2" src={evernote} />
                         <img className="row-4-img-3" src={bny_mellon} />
                         <img className="row-4-img-4" src={sony_pictures} />
