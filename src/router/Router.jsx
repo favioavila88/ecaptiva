@@ -50,10 +50,10 @@ const router =createBrowserRouter([
                         element: <Post />,
                         loader: loaderPost,
                     },
-                    {
-                        path: "/getAnEstimate",
-                        element: <GetAnEstimate />,
-                    },
+                    // {
+                    //     path: "/getAnEstimate",
+                    //     element: <GetAnEstimate />,
+                    // },
                 ]
             }
         ]
