@@ -15,18 +15,18 @@ const HomePage = () => {
   return (
     <div>
       <div className='home'>
-        <div className='home-container'>
-          <div><HomeRow_1 /></div>
-          <div><HomeRow_2 /></div>
-          <div><HomeRow_3 /></div>
-          <div><HomeRow_4 /></div>
-          <div><HomeRow_5 /></div>
-          <div><HomeRow_6 /></div>
-          <div><HomeRow_7 /></div>
-          <div><HomeRow_8 /></div>
-          <div><HomeRow_9 /></div>
-          <div><HomeRow_10 /></div>
-          <div><HomeRow_11 /></div>
+        < div className='home-container'>
+          <HomeRow_1 />
+          <HomeRow_2 />
+          <HomeRow_3 />
+          <HomeRow_4 />
+          <HomeRow_5 />
+          <HomeRow_6 />
+          <HomeRow_7 />
+          <HomeRow_8 />
+          <HomeRow_9 />
+          <HomeRow_10 />
+          <HomeRow_11 />
         </div>
       </div>
 
