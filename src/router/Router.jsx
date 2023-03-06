@@ -7,7 +7,6 @@ import TheProof from '../components/pages/TheProof'
 import Careers from '../components/pages/Careers'
 import Blog, { loaderBlog } from '../components/pages/Blog'
 import Post, { loaderPost } from '../components/pages/Post'
-import GetAnEstimate from '../components/pages/GetanEstimate'
 import Templates from '../components/templates/Templates'
 
 const router =createBrowserRouter([
@@ -50,10 +49,6 @@ const router =createBrowserRouter([
                         element: <Post />,
                         loader: loaderPost,
                     },
-                    // {
-                    //     path: "/getAnEstimate",
-                    //     element: <GetAnEstimate />,
-                    // },
                 ]
             }
         ]
