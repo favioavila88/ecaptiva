@@ -1,5 +1,6 @@
 .tp-row-3 {
     background-color: #262626;
+    width: 100%;
 }
 
 .tp-row-3-text-content ul {
@@ -42,7 +43,7 @@
 
 .tp-row-3-content-item {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     margin: 2px;
     color: aqua;
 }
