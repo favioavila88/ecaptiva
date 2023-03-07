@@ -1,6 +1,6 @@
 import React from 'react'
-import './Cp_row_4.css'
-import company from '../../assets/imags/company/comp-row-4/company-01.png'
+import '../../Styles/pages/company/CompanyRow_4.css'
+import company from '../../../assets/organisms/company/companyRow_4/company-01.png'
 
 const CompanyRow_4 = () => {
   return (

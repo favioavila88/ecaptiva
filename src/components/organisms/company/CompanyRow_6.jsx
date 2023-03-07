@@ -1,6 +1,6 @@
 import React from 'react'
-import contactUs from '../../assets/imags/company/comp-row-6/contactUs.png'
-import './Cp_row_6.css'
+import contactUs from '../../../assets/organisms/company/companyRow_6/contactUs.png'
+import '../../Styles/pages/company/CompanyRow_6.css'
 
 const CompanyRow_6 = () => {
   return (

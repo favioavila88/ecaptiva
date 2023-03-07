@@ -1,10 +1,10 @@
 import React from 'react'
 
-import './Cp_row_2.css'
+import '../../Styles/pages/company/CompanyRow_2.css'
 
-import qaLeft from '../../assets/imags/home/row-5/quotation-left-1.png'
-import qaRight from '../../assets/imags/home/row-5/quotation-right-1.png'
-import marcelo_tribuj from '../../assets/imags/company/comp-row-2/marcelo-tribuj.png'
+import qaLeft from '../../../assets/organisms//home/homeRow_5/quotation-left-1.png'
+import qaRight from '../../../assets/organisms//home/homeRow_5/quotation-right-1.png'
+import marcelo_tribuj from '../../../assets/organisms/company/companyRow_2/marcelo-tribuj.png'
 
 const CompanyRow_2 = () => {
   return (

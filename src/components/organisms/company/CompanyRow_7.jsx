@@ -1,10 +1,10 @@
 import React from 'react'
-import value01 from '../../assets/imags/company/comp-row-7/value-01.png'
-import value02 from '../../assets/imags/company/comp-row-7/value-02.png'
-import value03 from '../../assets/imags/company/comp-row-7/value-03.png'
-import value04 from '../../assets/imags/company/comp-row-7/value-04.png'
-import value05 from '../../assets/imags/company/comp-row-7/value-05.png'
-import './Cp_row_7.css'
+import value01 from '../../../assets/organisms/company/companyRow_7/value-01.png'
+import value02 from '../../../assets/organisms/company/companyRow_7/value-02.png'
+import value03 from '../../../assets/organisms/company/companyRow_7/value-03.png'
+import value04 from '../../../assets/organisms/company/companyRow_7/value-04.png'
+import value05 from '../../../assets/organisms/company/companyRow_7/value-05.png'
+import '../../Styles/pages/company/CompanyRow_7.css'
 
 const CompanyRow_7 = () => {
   return (
