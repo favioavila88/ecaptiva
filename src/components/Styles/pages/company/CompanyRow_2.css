@@ -1,0 +1,71 @@
+.cp-row-2-container {
+    padding: 70px 15px;
+    max-width: 100%;
+    width: 1100px;
+    float: none;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cp-row-2-content-left {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    position: relative;
+    visibility: visible;
+}
+
+.qaLeft {
+    position: absolute;
+    width: 78px;
+    left: -15px;
+    top: -50px;
+}
+
+.qaRight {
+    position: absolute;
+    width: 78px;
+    right: -15px;
+    bottom: 75px;
+}
+
+
+.cp-row-2-content-left h3 {
+    font-size: 26px;
+    line-height: 42px;
+    color: #4a4a4a;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.name-ceo {
+    color: #000;
+    font-size: 18px;
+    text-transform: none;
+    display: inline;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.post {
+    color: #35d0c9;
+    font-size: 18px;
+    text-transform: none;
+    display: inline;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+.cp-row-2-content-right{
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.564102564%;
+    width: 31.623931624%;
+}
+
+.photography-ceo{
+    width: 140%;
+    height: auto;
+}

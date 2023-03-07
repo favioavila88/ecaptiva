@@ -1,0 +1,46 @@
+.cp-row-6 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.cp-row-6-container {
+    background-image: url("../../assets/imags/company/comp-row-6/map.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;    
+}
+
+.cp-row-6-block {
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.cp-row-6-text-content {
+    width: 500px;
+    background-color: rgba(255,255,255,.6);
+    padding: 50px 30px;
+
+}
+
+.cp-row-6-text-content h2 {
+    color: #000;
+    line-height: 1.3em;
+    font-size: 28px;
+}
+
+.cp-row-6-text-content p {
+    font-size: 26px;
+    line-height: 39px;
+    color: #4a4a4a;
+}
+
+.cp-row-6-text-content div {
+    margin-top: 35px;
+
+}

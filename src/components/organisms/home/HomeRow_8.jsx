@@ -24,11 +24,11 @@ const HomeRow_8 = () => {
                     </div>
                     <div className="row-8-item"><img src={team} className='row-8-imag-3' />
                         <h1 className='row-8-colum-title'>Best talents</h1>
-                        <p className='row-8-colum-paragraph'>Truelogic is in a constant search for the best professionals available in the market.</p>
+                        <p className='row-8-colum-paragraph'>Captiva is in a constant search for the best professionals available in the market.</p>
                     </div>
                     <div className="row-8-item"><img src={recruiting} className='row-8-imag-4' />
                         <h1 className='row-8-colum-title'>Remote first</h1>
-                        <p className='row-8-colum-paragraph'>At Truelogic, we give preference to tasks carried out remotely, which guarantees a better
+                        <p className='row-8-colum-paragraph'>At Captiva, we give preference to tasks carried out remotely, which guarantees a better
                             quality of life for our employees.</p>
                     </div>
                     <div className="row-8-item"><img src={timezone} className='row-8-imag-5' />
