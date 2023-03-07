@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../molecules/header/Logo'
-import Navbar from '../molecules/header/Navbar'
-import '../Styles/organisms/Header.css'
+import Logo from '../../molecules/header/Logo'
+import Navbar from '../../molecules/header/Navbar'
+import '../../Styles/organisms/header/Header.css'
 
 const Header = () => {
   return (

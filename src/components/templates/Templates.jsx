@@ -1,7 +1,7 @@
 import React from 'react'
-import Header from '../organisms/Header'
+import Header from '../organisms/header/Header'
 import { Outlet, useNavigation } from 'react-router-dom'
-import Footer from '../organisms/Footer'
+import Footer from '../organisms/footer/Footer'
 
 const Templetas = () => {
     const navigation = useNavigation()
