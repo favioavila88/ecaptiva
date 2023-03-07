@@ -1,0 +1,42 @@
+.s-row-6-container {
+    padding: 70px 15px;
+    max-width: 100%;
+    width: 1100px;
+    float: none;
+    margin: 0px auto;
+    visibility: visible;
+    display: flex;
+}
+
+.s-row-6-text-content {
+    padding-top: 45px;
+
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    margin-left: 2.564102564%;
+}
+
+.s-row-6-text-content h2 {
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    font-size: 28px;
+}
+
+.s-row-6-img-content img {
+    height: auto;
+    width: 500px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.s-row-6-text-content p {
+    line-height: 29px;
+    font-size: 16px;
+    color: #818181;
+    font-weight: 400;
+    margin-top: 16px;
+}
