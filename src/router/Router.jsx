@@ -52,8 +52,7 @@ const router =createBrowserRouter([
                     },
                     {
                         path: "/getAnEstimate",
-                        element:<GetAnEstimate />,
-                        loader: loaderPost,
+                        element: <GetAnEstimate />,
                     },
 
                 ]

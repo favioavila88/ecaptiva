@@ -1,0 +1,32 @@
+.contact-us {    
+    margin-left: 64px;
+    width: 100%;
+}
+
+.contact-us-container {    
+    background-color: #f7f7f7;
+    padding: 80px 105px 70px 105px;
+    
+}
+
+.contact-us-title {
+    font-size: 36px;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+    color: #00c6c0;
+    letter-spacing: -1px;
+}
+
+.contact-us-text {
+    line-height: 1.15;
+    font-size: 22px;
+    color: #000000;
+
+}
+
+.contact-us-text-black {
+    line-height: 1.15;
+    font-size: 20px;
+    color: #000000;
+    font-size: 24px;
+}

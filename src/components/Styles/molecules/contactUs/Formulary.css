@@ -1,0 +1,54 @@
+.formulary {
+  background-color: #fff;
+  padding: 80px 0 70px 0;
+}
+
+.formulary h1 {
+  font-size: 20px;
+  font-family: sailec-medium;
+  margin-bottom: 0px;
+  letter-spacing: -1.3px;
+  color: #000;
+  line-height: 1.1em;
+}
+
+div .first-nam {
+  margin-top: 25px;
+}
+
+input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  padding: 6px;
+  color: #8b8b8b;
+  font-weight: 400;
+  border-radius: 0;
+
+}
+
+.error-msg {
+  display: none;
+  color: red;
+}
+
+input:invalid + .error-msg {
+  display: block;
+}
+
+.formulary-content {
+  margin-top: 15px;
+}
+
+
+button[type="submit"] {
+  background-color: #01d8d1;
+  border: solid 3px #01d8d1;
+  color: white;
+  padding: 12px 25px 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 45px;
+}

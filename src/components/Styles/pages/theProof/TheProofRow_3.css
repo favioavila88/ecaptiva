@@ -40,7 +40,6 @@
     transition: all .3s ease-in-out;
 }
 
-
 .tp-row-3-content-item {
     display: grid;
     grid-template-columns: auto auto auto;
