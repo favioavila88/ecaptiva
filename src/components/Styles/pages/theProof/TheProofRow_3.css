@@ -1,5 +1,5 @@
 .tp-row-3 {
-    background-color: #262626;
+    background-color: #011133;
     width: 100%;
 }
 
@@ -34,7 +34,8 @@
 }
 
 .tp-row-3-button li:hover {
-    color: #01d8d1;
+    color: #2c7c64
+
     overflow: hidden;
     text-overflow: ellipsis;
     transition: all .3s ease-in-out;

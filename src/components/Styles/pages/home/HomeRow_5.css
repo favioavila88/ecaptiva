@@ -66,7 +66,7 @@
   }
   
   .m-btn {
-    border: 2px solid #23e3c2;
+    border: 2px solid #337c6c;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -79,11 +79,11 @@
   }
   
   .m-btn:hover {
-    background-color: #23e3c2;
+    background-color: #337c6c;
   }
   
   #radio1:checked~.m-btn:hover {
-    background-color: #23e3c2;
+    background-color: #337c6c;
   }
   
   #radio1:checked~.first {
@@ -110,7 +110,7 @@
   }
   
   .row-5-link {
-    color: #01d8d1;
+    color: #2c7c64;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;

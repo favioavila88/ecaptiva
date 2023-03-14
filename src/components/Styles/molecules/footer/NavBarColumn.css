@@ -1,0 +1,33 @@
+.nav-bar-column-container {
+    margin-top: 80px;
+}
+
+
+.title-menu {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+.menu-footer {
+    margin-top: 20px;
+}
+
+.menu-item .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.menu-item .nav-link:hover {
+    color: rgb(11, 211, 21);
+}

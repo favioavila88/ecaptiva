@@ -1,0 +1,9 @@
+.logos-column {
+margin-top: 80px;
+align-items: center;
+}
+
+.logos-column img {
+    width: 200px;
+    align-items: center;
+}

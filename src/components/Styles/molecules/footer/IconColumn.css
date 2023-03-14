@@ -1,0 +1,20 @@
+.icon-column-contain {
+margin-top: 80px;
+}
+
+.imagen-logo-footer img {
+    width: 140px;
+}
+
+.name-logo-footer {
+   color: rgb(180, 180, 180); 
+   font-family:Arial, Helvetica, sans-serif ;
+   margin-top: 20px;
+}
+
+
+.contry-logo-footer {
+    color: rgb(180, 180, 180); 
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-top: 170px;
+}

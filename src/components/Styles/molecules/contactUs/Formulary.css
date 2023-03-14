@@ -43,8 +43,10 @@ input:invalid + .error-msg {
 
 
 button[type="submit"] {
-  background-color: #01d8d1;
-  border: solid 3px #01d8d1;
+  background-color: #2c7c64
+;
+  border: solid 3px #2c7c64
+;
   color: white;
   padding: 12px 25px 10px 25px;
   border-radius: 5px;

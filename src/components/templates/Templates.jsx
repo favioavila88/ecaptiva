@@ -7,7 +7,7 @@ const Templetas = () => {
     const navigation = useNavigation()
 
     return (
-        <>
+        <div className='templetes'>
           <Header />
             <main className="container">
                 {navigation.state === "loading" && (
@@ -16,7 +16,7 @@ const Templetas = () => {
             </main >
             <Outlet />
             <Footer />
-        </>
+        </div>
     )
 }
 
