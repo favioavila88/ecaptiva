@@ -8,7 +8,7 @@ const ReferenceDateColumn = () => {
                 <div className='reference-column-container'>
                     <div className='info-text'><h3 className='type-contact-text'>Let's build something great together</h3></div>
                     <div className='info-text'><a className='number-tel-text'>+591 70773018</a></div>
-                    <div className='info-text'><h2 className='email-text'>hello@captiva.io</h2></div>
+                    <div className='info-text'><h2 className='email-text'>captiva.software@gmail.com</h2></div>
                     <div>
                         <ul className='social-red'>
                             <li className="fa fa-facebook fa-lg simple_social"></li>
