@@ -1,3 +1,7 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
 .slideInUp {
     -webkit-animation-name: slideInUp;
     animation-name: slideInUp;
@@ -34,7 +38,7 @@
 }
 
 .row-4 {
-    background-color: #fafafa;
+    background-color: #f3f8f1;
 }
 
 .row-4-title {

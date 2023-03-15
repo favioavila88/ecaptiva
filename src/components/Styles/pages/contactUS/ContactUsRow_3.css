@@ -1,0 +1,52 @@
+* {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.contactUsRow3-containe {
+    display: grid;
+    grid-template-rows: auto;
+    padding: 70px 15px;
+    width: 1100px;
+    float: none;
+    margin: 0px auto;
+    }
+    
+    .contacUsRow3-title {
+        color: #000;
+        line-height: 1.1em;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: 350;
+    }
+    
+    .contacUsRow3-column {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .contacUsRow3-column-container{
+        text-align: center; 
+        padding: 15px;
+      
+    }
+    
+    .contacUsRow3-column-container img {
+        width: 150px;
+    }
+    
+    .contacUsRow3-column-title{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    
+    .contacUsRow3-column-paragraph {
+        font-size: 16px;
+        color: #818181;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }

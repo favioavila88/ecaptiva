@@ -1,3 +1,7 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 .row-11 {
     background-color: #262626;   
     display: flex;
@@ -5,7 +9,7 @@
 }
 
 .row-11-content-item img {
-    width: 100%;
+    width: 150%;
     filter: brightness(50%);
 }
 

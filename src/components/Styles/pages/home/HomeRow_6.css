@@ -1,5 +1,5 @@
 .row-6 {
-    background-image: url('../../../../assets/organisms/home/homeRow_6/home-02-1.png');
+    background-image: url('../../../../assets/organisms/home/homeRow_6/home-02-3.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -36,8 +36,7 @@
     }
   
     .row-6-button:hover {
-      color: #2c7c64
-      ;
+      color: #0BD315;
       background: #fff;
       text-shadow: none;
     }

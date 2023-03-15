@@ -1,3 +1,7 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
 .row-1 {
     position: relative;
     overflow: hidden;
@@ -57,7 +61,6 @@
       margin-bottom: 45px;
       letter-spacing: -1px;
       font-weight: 600;
-      text-rendering: optimizelegibility;
     }
   
     .row-1-conatiner-content a{
@@ -73,13 +76,12 @@
       line-height: 42px;
       font-weight: 900;
       letter-spacing: .5px;
-      background-color: #337c6c
-      ;
+      background-color: #0BD315;
       transition: all .3s ease-in-out;
     }
     
     .row-1-botton:hover {
       background: #fff;
-      color: #278EA5;
+      color: #0BD315;
     }
   

@@ -1,8 +1,8 @@
 import React from 'react'
 
-import team1 from '../../../assets/organisms/services/servicesRow_2/team-1.png'
-import agile_team from '../../../assets/organisms/services/servicesRow_2/agile-team.png'
-import box_close from '../../../assets/organisms/services/servicesRow_2/box-close.png'
+import team1 from '../../../assets/organisms/services/servicesRow_2/team-1-2.png'
+import agile_team from '../../../assets/organisms/services/servicesRow_2/agile-team-2.png'
+import box_close from '../../../assets/organisms/services/servicesRow_2/box-close-2.png'
 
 import '../../Styles/pages/services/ServicesRow_2.css'
 

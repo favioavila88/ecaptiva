@@ -13,7 +13,7 @@ const NavBarColumn = () => {
                         <li className='menu-item'><NavLink to="/services" className="nav-link">Services</NavLink></li>
                         <li className='menu-item'><NavLink to="/theproof" className="nav-link">The Proof</NavLink></li>
                         <li className='menu-item'><NavLink to="/careers" className="nav-link">Careers</NavLink></li>
-                        <li className='menu-item'><NavLink to="/blog" className="nav-link">Blog</NavLink></li>
+
                         <li className='menu-item'><NavLink to="/getanestimate" className="nav-link">Get an Estimate</NavLink></li>
                     </ul>
                 </div>

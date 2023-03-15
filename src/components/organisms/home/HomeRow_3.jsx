@@ -3,6 +3,7 @@ import fastforward from '../../../assets/organisms/home/homeRow_3/fast-forward.p
 
 const HomeRow_3 = () => {
     return (
+        
         <div className='row-3'>
             <div className="row-3-container">
                 <div className="row-3-container-img">
