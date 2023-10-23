@@ -1,7 +1,6 @@
 import React from "react";
-import Subtitle from "../../atoms/Title";
-import Line from "../../atoms/line";
 import Title from "../../atoms/Title";
+import Line from "../../atoms/line";
 
 const Frame = ({ text, lineClass }) => {
   return (
