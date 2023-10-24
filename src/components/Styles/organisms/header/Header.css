@@ -31,6 +31,6 @@
 
 .contain-header.active {
   transition-property: all;
-  background: white;
+  background: #f3f8f1;
   transition-duration: 1s;
 }

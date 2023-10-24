@@ -8,10 +8,8 @@ const Header = () => {
 
   const changeBackground = () => {
     if (window.scrollY > 80) {
-      console.log(window.scrollY);
       setNavbar(true);
     } else {
-      console.log("menor");
       setNavbar(false);
     }
   };
