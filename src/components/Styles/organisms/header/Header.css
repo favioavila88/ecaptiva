@@ -3,16 +3,34 @@
   padding: 0;
 }
 
+.header-1 {
+  background-color: transparent;
+  z-index: 5000;
+  height: 80px;
+  position: relative;
+  display: flex;
+  top: 0;
+}
+
 .contain-header {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 100%;
-    width: 1100px;
-    float: none;
-    margin: 0 auto;
-    padding-bottom: 2px;
+  display: flex;
+  grid-template-columns: auto auto;
+  align-items: center;
+  position: fixed;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 100%;
+  width: 1100px;
+  float: none;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  min-width: 100%;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.contain-header.active {
+  transition-property: all;
+  background: white;
+  transition-duration: 1s;
 }
