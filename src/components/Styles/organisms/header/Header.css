@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Monserrat";
+  font-weight: 900;
+  src: local("Monserrat"),
+    url(../../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+      format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +18,7 @@
   position: relative;
   display: flex;
   top: 0;
+  font-family: Monserrat;
 }
 
 .contain-header {
@@ -27,6 +36,7 @@
   min-width: 100%;
   transition-property: all;
   transition-duration: 1s;
+  font-family: Monserrat;
 }
 
 .contain-header.active {
