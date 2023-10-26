@@ -9,7 +9,7 @@ import CarrersRow_6 from "../organisms/carrers/CarrersRow_6";
 const Careers = () => {
   return (
     <div>
-      <div className="carrers">
+      <div className="container">
         <div className="carrers-ccontainer">
           <CarrersRow_1 />
           <CarrersRow_2 />
