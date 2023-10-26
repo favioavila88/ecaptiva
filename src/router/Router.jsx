@@ -46,7 +46,7 @@ const router =createBrowserRouter([
                         loader: loaderBlog,
                     },
                     {
-                        path: "/blog/:id",
+                        path: "/post/:id",
                         element: <Post />,
                         loader: loaderPost,
                     },

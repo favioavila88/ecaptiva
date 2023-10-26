@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import '../../Styles/pages/home/HomeRow_1.css';
-import videoHome from '../../../assets/organisms/home/homeRow_1/home-video.mp4'
+import videoHome from '../../../assets/organisms/home/homeRow_1/OfficeVideo.mp4'
 
 const HomeRow_1 = () => {
     return (

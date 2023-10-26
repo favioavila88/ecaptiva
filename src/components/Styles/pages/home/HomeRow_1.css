@@ -76,12 +76,12 @@
       line-height: 42px;
       font-weight: 900;
       letter-spacing: .5px;
-      background-color: #0BD315;
+      background-color: #1d63f5;
       transition: all .3s ease-in-out;
     }
     
     .row-1-botton:hover {
       background: #fff;
-      color: #0BD315;
+      color: #1d63f5;
     }
   
