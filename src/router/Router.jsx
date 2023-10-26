@@ -1,14 +1,15 @@
-import { createBrowserRouter } from 'react-router-dom'
-import Error404 from '../components/pages/Error404'
-import HomePage from '../components/pages/HomePage'
-import Company from '../components/pages/Company'
-import Services from '../components/pages/Services'
-import TheProof from '../components/pages/TheProof'
-import Careers from '../components/pages/Careers'
-import Blog, { loaderBlog } from '../components/pages/Blog'
-import Post, { loaderPost } from '../components/pages/Post'
-import Templates from '../components/templates/Templates'
-import GetAnEstimate from '../components/pages/GetAnEstimate'
+import { createBrowserRouter } from "react-router-dom";
+import Error404 from "../components/pages/Error404";
+import HomePage from "../components/pages/HomePage";
+import Company from "../components/pages/Company";
+import Services from "../components/pages/Services";
+import TheProof from "../components/pages/TheProof";
+import Careers from "../components/pages/Careers";
+import Blog, { loaderBlog } from "../components/pages/Blog";
+import Post, { loaderPost } from "../components/pages/Post";
+import Templates from "../components/templates/Templates";
+import GetAnEstimate from "../components/pages/GetAnEstimate";
+import ScrollToTop from "../components/pages/ScrollToTop";
 
 const router =createBrowserRouter([
 
@@ -46,7 +47,7 @@ const router =createBrowserRouter([
                         loader: loaderBlog,
                     },
                     {
-                        path: "/post/:id",
+                        path: "/blog/:id",
                         element: <Post />,
                         loader: loaderPost,
                     },
@@ -63,4 +64,4 @@ const router =createBrowserRouter([
 ])
   
 
-export default router
+export default router;

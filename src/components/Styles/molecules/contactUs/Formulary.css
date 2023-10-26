@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Monserrat";
+  font-weight: 900;
+  src: local("Monserrat"),
+    url(../../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+      format("truetype");
+}
+
 .formulary {
   background-color: #fff;
   padding: 80px 0 70px 0;
@@ -5,7 +13,7 @@
 
 .formulary h1 {
   font-size: 20px;
-  font-family: sailec-medium;
+  font-family: Monserrat, sailec-medium;
   margin-bottom: 0px;
   letter-spacing: -1.3px;
   color: #000;
@@ -25,7 +33,6 @@ input {
   color: #8b8b8b;
   font-weight: 400;
   border-radius: 0;
-
 }
 
 .error-msg {
@@ -38,13 +45,13 @@ input:invalid + .error-msg {
 }
 
 .formulary-content {
+  font-family: Monserrat, sailec-medium;
   margin-top: 15px;
 }
 
-
 button[type="submit"] {
-  background-color: #1d63f5;
-  border: solid 3px #1d63f5;
+  background-color: #0BD315;
+  border: solid 3px #0BD315;
   color: white;
   padding: 12px 25px 10px 25px;
   border-radius: 5px;
