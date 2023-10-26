@@ -18,8 +18,8 @@ const Header = () => {
 
   return (
     <div className="header-1">
-      <div>
-        <div className={navbar ? "contain-header active" : "contain-header"}>
+      <div className={navbar ? "contain-header active" : "contain-header"}>
+        <div className="content-header">
           <Logo />
           <Navbar />
         </div>

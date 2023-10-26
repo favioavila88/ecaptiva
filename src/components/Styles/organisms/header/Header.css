@@ -22,17 +22,10 @@
 }
 
 .contain-header {
-  display: flex;
-  grid-template-columns: auto auto;
-  align-items: center;
   position: fixed;
-  padding-left: 15px;
-  padding-right: 15px;
   max-width: 100%;
-  width: 1100px;
   float: none;
   margin: 0 auto;
-  padding-bottom: 2px;
   min-width: 100%;
   transition-property: all;
   transition-duration: 1s;
@@ -43,4 +36,11 @@
   transition-property: all;
   background: #f3f8f1;
   transition-duration: 1s;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
 }
