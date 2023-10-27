@@ -1,19 +1,17 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Error404 from "../components/pages/Error404";
+import HomePage from "../components/pages/HomePage";
+import Company from "../components/pages/Company";
+import Services from "../components/pages/Services";
+import TheProof from "../components/pages/TheProof";
+import Careers from "../components/pages/Careers";
 import Blog, { loaderBlog } from "../components/pages/Blog";
 import Post, { loaderPost } from "../components/pages/Post";
+import GetAnEstimate from "../components/pages/GetAnEstimate";
+import ScrollToTop from "../components/pages/ScrollToTop";
 
-const HomePage = React.lazy(() => import("../components/pages/HomePage"));
-const Company = React.lazy(() => import("../components/pages/Company"));
-const Services = React.lazy(() => import("../components/pages/Services"));
-const TheProof = React.lazy(() => import("../components/pages/TheProof"));
-const Careers = React.lazy(() => import("../components/pages/Careers"));
 const Templates = React.lazy(() => import("../components/templates/Templates"));
-const GetAnEstimate = React.lazy(() =>
-  import("../components/pages/GetAnEstimate")
-);
-const ScrollToTop = React.lazy(() => import("../components/pages/ScrollToTop"));
 
 const router = createBrowserRouter([
   {
