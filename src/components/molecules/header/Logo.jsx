@@ -1,8 +1,7 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import logoCaptivaHeader1 from "../../../assets/header/captiva.png";
-// import logoCaptivaHeader1 from '../../../assets/header/LogoCaptivaHeader2.png'
-import "../../Styles/molecules/header/Logo.css";
+import React from 'react'
+import { NavLink } from 'react-router-dom'
+import logoCaptivaHeader1 from '../../../assets/header/CaptivaSkyBlue.png'
+import '../../Styles/molecules/header/Logo.css'
 
 const Logo = () => {
   return (

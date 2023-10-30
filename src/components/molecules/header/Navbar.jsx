@@ -5,6 +5,7 @@ import MenuList from "../../../constants/MenuList";
 
 const Navbar = () => {
   return (
+
     <div className="navbar">
       <nav className="content-navbar">
         <ul className="text-navbar">

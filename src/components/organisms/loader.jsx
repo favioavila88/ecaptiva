@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/organisms/loader.css";
-import logoCaptivaHeader1 from "../../assets/header/captiva-loader.jpg";
+import logoCaptivaHeader1 from "../../assets/header/LogoSkyBlueBlack.png";
 
 const Loader = () => {
   return (

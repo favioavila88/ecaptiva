@@ -47,7 +47,7 @@
   }
   
   .number-tel-text:hover {
-    color: #2c7c64;
+    color: #1d63f5;
     overflow: hidden;
     text-overflow: ellipsis;
     transition: all .3s ease-in-out;
@@ -67,7 +67,7 @@
   }
   
   .email-text:hover {
-    color: #2c7c64;
+    color: #1d63f5;
     overflow: hidden;
     text-overflow: ellipsis;
     transition: all .3s ease-in-out;

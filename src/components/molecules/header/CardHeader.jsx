@@ -8,9 +8,9 @@ const CardHeader = ({ image, title, className, subtitle }) => {
 
   return (
     <div>
-      <Icon image={image}></Icon>
       <Title text={title} className={className}></Title>
-      {!isNullOrEmpty ? <Subtitle text={subtitle} /> : null}
+      <Icon image={image}></Icon>      
+      {!isNullOrEmpty ? <Subtitle text={subtitle} className={className}/> : null}
     </div>
   );
 };

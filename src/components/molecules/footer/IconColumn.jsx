@@ -1,5 +1,5 @@
 import React from 'react'
-import logofooter from '../../../assets/footer/logo-footer.png'
+import logofooter from '../../../assets/footer/CaptivaSBWait.png'
 import '../../Styles/molecules/footer/IconColumn.css'
 
 const IconColumn = () => {

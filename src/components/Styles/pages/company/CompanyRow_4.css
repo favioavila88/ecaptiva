@@ -40,6 +40,7 @@
 .cp-row-4-img-content img {
   height: auto;
   width: 500px;
+  max-height: 100px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
