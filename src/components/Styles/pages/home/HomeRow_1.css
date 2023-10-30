@@ -9,6 +9,11 @@
     background-size: cover;
   
   }
+
+  .row-1-container {
+    width: 100%;
+    max-height: 700px;
+  }
   
   .row-1-container video {
     width: 100%;

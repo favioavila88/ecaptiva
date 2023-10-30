@@ -10,11 +10,11 @@ const HomeRow_3 = () => {
                     <img className="row-3-img" src={fastforward} />
                 </div>
                 <div className="row-3-text-container">
-                    <p>Captiva leverages the latest in tech to maximize your
-                        company's potential. We address especially fitted 
-                        solutions with advanced technology and empower your 
-                        company with dedicated teams of senior software engineers working
-                        in your same timezone. We'll put your company on the cutting edge.</p>
+                    <p>Surpass geographical boundaries and connect with 
+                        exceptionally proficient software engineers in 
+                        Latin America. These professionals come with more than 
+                        5 years of expertise and are fluent in English. We provide 
+                        a reliable and effective option, operating within our clients' time zone.</p>
                 </div>
             </div>
         </div>

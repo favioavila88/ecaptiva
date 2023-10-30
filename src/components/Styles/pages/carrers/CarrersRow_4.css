@@ -29,4 +29,6 @@
 
 .ca-row-4-img img {
     width: 520px;
+    max-height: 100px;
+
 }

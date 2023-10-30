@@ -11,7 +11,7 @@ import Templates from "../components/templates/Templates";
 import GetAnEstimate from "../components/pages/GetAnEstimate";
 import ScrollToTop from "../components/pages/ScrollToTop";
 
-const router =createBrowserRouter([
+const router = createBrowserRouter([
 
     {
         path:"/",

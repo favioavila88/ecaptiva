@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../Styles/molecules/header/Navbar.css";
-import MenuList from "../../../constants/MenuList";
 
 const Navbar = () => {
   return (

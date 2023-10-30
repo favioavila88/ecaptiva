@@ -1,13 +1,16 @@
 import React from "react";
 import "../../Styles/pages/company/CompanyRow_4.css";
-import company from "../../../assets/organisms/company/companyRow_4/company-01.png";
+import company from "../../../assets/organisms/company/companyRow_4/company-02.jpg";
 import CareerBase from "../carrers/CareerBase";
 
 const CompanyRow_4 = () => {
   return (
     <CareerBase
-      text="Who's behind Truelogic? The world's leading tech professionals. But for us going to work doesn't mean disappearing into separate cubicles. We may show up in jeans, but we work as a team - a team that comes up with tangible solutions for you, our client."
-      title="Truelogic's true story"
+      text="CAPTIVA Software LLC. is a company located in Cochabamba that specializes in improving 
+            the engineering skills of any firm worldwide. We increase the intellectual production 
+            of our clients by providing the most outstanding human resources through a Nearshore 
+            model. Based in the Valley of Bolivia - Cochabamba,"
+      title="CAPTIVA true story"
       image={company}
       reverse={false}
       subtitle="WHO WE ARE"

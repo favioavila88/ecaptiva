@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../Styles/pages/company/CompanyRow_7.css";
 import Card from "../carrers/Card";
 import Frame from "../../molecules/header/Frame";
@@ -11,7 +11,7 @@ const CompanyRow_7 = () => {
     <div className="cp-row-7">
       <div className="cp-row-7-container">
         <div className="cp-row-7-title">
-          <Frame text="OUR VALUES" lineClass="cp-row-7-line" />
+          <Frame text="HOW TO WORK WITH US" lineClass="cp-row-7-line" />
         </div>
         <div className="cp-row-7-content">
           {values.map((v) => {
@@ -20,6 +20,7 @@ const CompanyRow_7 = () => {
                 <Card
                   image={v.image}
                   title={v.title}
+                  subtitle={v.subtitle}
                   className={v.className}
                   content={v.content}
                 ></Card>
