@@ -1,20 +1,25 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../Styles/molecules/header/Navbar.css";
+import MenuList from "../../../constants/MenuList";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-      <nav className='content-navbar'>
-            <ul className='text-navbar'>
-              <li><NavLink to="/company" className="navbar-link">COMPANY</NavLink></li>
-              <li><NavLink to="/services" className="navbar-link">SERVICES</NavLink></li>
-              <li><NavLink to="/theProof" className="navbar-link">THE PROOF</NavLink></li>
-              <li><NavLink to="/careers" className="navbar-link">CAREERS</NavLink></li>
 
-              <li className='item1'><NavLink to="/getAnEstimate" className="border-solid">GET AN ESTIMATE</NavLink></li>
-            </ul>
-          </nav>
+    <div className="navbar">
+      <nav className="content-navbar">
+        <ul className="text-navbar">
+          {MenuList.map((item) => {
+            return (
+              <li key={item.id}>
+                <NavLink to={item.path} className={item.style}>
+                  {item.text}
+                </NavLink>
+              </li>
+            );
+          })}
+        </ul>
+      </nav>
     </div>
   );
 };
