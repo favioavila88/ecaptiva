@@ -3,8 +3,8 @@ import ServicesRow_1 from "../organisms/services/ServicesRow_1";
 import ServicesRow_2 from "../organisms/services/ServicesRow_2";
 import ServicesRow_3 from "../organisms/services/ServicesRow_3";
 import ServicesRow_4 from "../organisms/services/ServicesRow_4";
-import ServicesRow_5 from "../organisms/services/ServicesRow_5";
 import ServicesRow_6 from "../organisms/services/ServicesRow_6";
+import HomeRow_9 from "../organisms/home/HomeRow_9";
 
 const Services = () => {
   return (
@@ -15,7 +15,7 @@ const Services = () => {
           <ServicesRow_2 />
           <ServicesRow_3 />
           <ServicesRow_4 />
-          <ServicesRow_5 />
+          <HomeRow_9 />
           <ServicesRow_6 />
         </div>
       </div>

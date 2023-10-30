@@ -10,7 +10,7 @@ const Navbar = () => {
         <ul className="text-navbar">
           {MenuList.map((item) => {
             return (
-              <li>
+              <li key={item.id}>
                 <NavLink to={item.path} className={item.style}>
                   {item.text}
                 </NavLink>

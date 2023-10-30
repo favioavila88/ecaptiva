@@ -4,31 +4,31 @@ import box_close from "../assets/organisms/services/servicesRow_2/box-close-2.pn
 
 const MenuList = [
   {
-    id: 1,
+    id: "ml1",
     path: "./company",
     text: "COMPANY",
     style: "navbar-link",
   },
   {
-    id: 2,
+    id: "ml2",
     path: "./services",
     text: "SERVICES",
     style: "navbar-link",
   },
   {
-    id: 3,
+    id: "ml3",
     path: "./theProof",
     text: "THE PROOF",
     style: "navbar-link",
   },
   {
-    id: 4,
+    id: "ml4",
     path: "./careers",
     text: "CAREERS",
     style: "navbar-link",
   },
   {
-    id: 5,
+    id: "ml5",
     path: "./getAnEstimate",
     text: "GET AN ESTIMATE",
     style: "border-solid",
