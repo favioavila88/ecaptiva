@@ -10,6 +10,8 @@ import HomeRow_7 from "../organisms/home/HomeRow_7";
 import HomeRow_9 from "../organisms/home/HomeRow_9";
 import HomeRow_10 from "../organisms/home/HomeRow_10";
 import HomeRow_11 from "../organisms/home/HomeRow_11";
+import ServicesRow_3 from "../organisms/services/ServicesRow_3";
+
 
 const HomePage = () => {
   return (
@@ -17,6 +19,7 @@ const HomePage = () => {
       <div className="container">
         <div className="home-container">
           <HomeRow_1 />
+          <ServicesRow_3 />
           <HomeRow_2 />
           <HomeRow_3 />
           <HomeRow_4 />
