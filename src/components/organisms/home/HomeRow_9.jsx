@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TechStacks from "../../../constants/TechStacks";
 import "../../Styles/pages/home/HomeRow_9.css";
+import "../../Styles//organisms/accordion/Accordion.css";
 
 const HomeRow_9 = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
