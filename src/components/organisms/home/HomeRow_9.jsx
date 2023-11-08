@@ -1,5 +1,9 @@
-import TechStacks from "../../../constants/TechStacks";
+import React, { useState } from "react";
+
 import "../../Styles/pages/home/HomeRow_9.css";
+import "../../Styles//organisms/accordion/Accordion.css";
+import Accordion from "../accordion/Accordion";
+import TechStacks from "../../../constants/TechStacks";
 
 const HomeRow_9 = () => {
   return (
@@ -7,15 +11,7 @@ const HomeRow_9 = () => {
       <div className="row-9">
         <div className="row-9-container">
           <h3 className="row-9-title">OUR TECH STACK</h3>
-          <div className="row-9-images-container">
-            {TechStacks.map((tech) => {
-              return (
-                <div key={tech.id}>
-                  <img className="row-9-img-1" src={tech.src} />
-                </div>
-              );
-            })}
-          </div>
+          <Accordion items={TechStacks} limit={10}></Accordion>
         </div>
       </div>
     </>
