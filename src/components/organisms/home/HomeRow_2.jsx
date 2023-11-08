@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import "../../Styles/pages/home/HomeRow_2.css";
 import "../../Styles/pages/home/HomeRow_2.css";
 import { useSpring, animated } from "react-spring";
 
@@ -37,7 +37,6 @@ const HomeRow_2 = () => {
       </div>
     );
   }
-
   return (
     <div className="row-2">
       <div className="row-2-container">
