@@ -12,7 +12,7 @@ const Values = [
     subtitle: "1 STEP",
     className: "cp-row-7-title-column-1",
     content:
-      "It is never premature or late to contact us. Some of our most fruitful interactions with clients have originated from a one-on-one discussion where viable strategies and value propositions are developed. Talk to us now via chat! Dial us at (+591 70773018) right now! Or send us an email. We are eager to hear your requirements and offer you a solution.",
+      "It is never premature or late to contact us. Some of our most fruitful interactions with clients have originated from a one-on-one discussion where viable strategies and value propositions are developed. Talk to us now via chat! Dial us at (+591 70707070) right now! Or send us an email. We are eager to hear your requirements and offer you a solution.",
   },
   {
     id: 200,
