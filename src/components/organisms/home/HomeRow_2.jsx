@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "../../Styles/pages/home/HomeRow_2.css";
 import "../../Styles/pages/home/HomeRow_2.css";
 import { useSpring, animated } from "react-spring";
