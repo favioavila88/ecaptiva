@@ -1,5 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/captivas/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - export DEPLOYPATH=/home3/captivas/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
