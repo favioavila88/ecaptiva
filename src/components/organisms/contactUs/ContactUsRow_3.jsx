@@ -1,6 +1,6 @@
 import React from 'react'
-import cochabamba from '../../../assets/organisms/contactUs/contactUsRow_3/cochabamba.png'
-import mataGozo from '../../../assets/organisms/contactUs/contactUsRow_3/maltaGozo.png'
+import cochabamba from '../../../assets/organisms/contactUs/contactUsRow_3/IconAzul12.png'
+import mataGozo from '../../../assets/organisms/contactUs/contactUsRow_3/IconAzul11.png'
 import '../../Styles/pages/contactUS/ContactUsRow_3.css'
 
 const ContactUsRow_3 = () => {

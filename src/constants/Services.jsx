@@ -1,6 +1,6 @@
-import team1 from "../assets/organisms/services/servicesRow_2/team-1-2.png";
-import agile_team from "../assets/organisms/services/servicesRow_2/agile-team-2.png";
-import box_close from "../assets/organisms/services/servicesRow_2/box-close-2.png";
+import team1 from "../assets/organisms/services/servicesRow_2/IconAzul18.png";
+import agile_team from "../assets/organisms/services/servicesRow_2/IconAzul15.png";
+import box_close from "../assets/organisms/services/servicesRow_2/IconAzul17.png";
 
 const Services = [
   {

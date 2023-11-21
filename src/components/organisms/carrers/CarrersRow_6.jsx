@@ -1,9 +1,9 @@
 import React from 'react'
-import ícones5 from '../../../assets/organisms/carrers/carrersRow_6/ícones5-2.png'
-import ícones4 from '../../../assets/organisms/carrers/carrersRow_6/ícones4-2.png'
-import ícones3 from '../../../assets/organisms/carrers/carrersRow_6/ícones3-2.png'
-import ícones2 from '../../../assets/organisms/carrers/carrersRow_6/ícones2-2.png'
-import ícones1 from '../../../assets/organisms/carrers/carrersRow_6/ícones1-2.png'
+import ícones5 from '../../../assets/organisms/carrers/carrersRow_6/IconAzul1.png'
+import ícones4 from '../../../assets/organisms/carrers/carrersRow_6/IconAzul5.png'
+import ícones3 from '../../../assets/organisms/carrers/carrersRow_6/IconAzul4.png'
+import ícones2 from '../../../assets/organisms/carrers/carrersRow_6/IconAzul2.png'
+import ícones1 from '../../../assets/organisms/carrers/carrersRow_6/IconAzul3.png'
 import '../../Styles/pages/carrers/CarrersRow_6.css'
 
 const CarrersRow_6 = () => {
