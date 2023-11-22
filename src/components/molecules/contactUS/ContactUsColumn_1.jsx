@@ -14,7 +14,7 @@ const ContactUsColumn_1 = () => {
           <div className="contact-us-title">
             <h1>CONTACT US!</h1>
           </div>
-          <div className="contact-us-text" style={{ color: "black" }}>
+          <div className="contact-us-text-white">
             <p>
               Our goal is to help businesses of all sizes and industries
               successfully innovate and grow. <br />
@@ -24,7 +24,7 @@ const ContactUsColumn_1 = () => {
             </p>
           </div>
           <br />
-          <div className="contact-us-text-black" style={{ color: "black" }}>
+          <div className="contact-us-text-white">
             <p>Hire Top Tech Talent from Latin America in a few days! </p>
           </div>
         </div>

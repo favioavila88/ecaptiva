@@ -87,7 +87,7 @@ button[type="submit"] {
 
 .app-form-label {
   width: 100%;
-  color: #add8e6;
+  color: #a9beed;
   font-size: 12px;
   outline: none;
   transition: border-color 0.2s;
@@ -123,7 +123,7 @@ button[type="submit"] {
 
 .app-form-input {
   color: white;
-  background-color: rgb(0, 12, 102);
+  background-color: #013198;
   text-transform: uppercase;
   border-radius: 4px;
   border: 1px solid #1d63f5;
