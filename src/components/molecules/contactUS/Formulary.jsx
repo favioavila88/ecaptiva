@@ -27,7 +27,7 @@ const Formulary = () => {
   return (
     <div
       style={{
-        backgroundColor: "#000C66",
+        backgroundColor: "#013198",
         width: "100%",
         padding: "70px",
         marginBottom: "50px",
