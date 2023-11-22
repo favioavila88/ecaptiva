@@ -1,49 +1,77 @@
+import React from "react";
+import emailjs from "emailjs-com";
 
-import '../../Styles/molecules/contactUs/Formulary.css'
+import "../../Styles/molecules/contactUs/Formulary.css";
 
 const Formulary = () => {
+  function sendEmail(e) {
+    e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
 
+    emailjs
+      .sendForm(
+        "service_4ia0mi6",
+        "template_5ijot8o",
+        e.target,
+        "TrjOVdR2VR81NJsUb"
+      )
+      .then(
+        (result) => {
+          window.location.reload(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  }
 
-    return (
-        <div className="formulary">
-            <h1>Send us a brief message and we will get in touch with you for scheduling a short conversation with our experts. </h1>
-            <form action="https://formsubmit.co/captiva.software@gmail.com" method="POST" >
-                <label className="formulary-content">First name:
-                    <input name="first-name" type="text" inputMode="text"
-                        autoComplete="give-name" required/>
-
-                </label>
-                <label className="formulary-content">Last name:
-                    <input name="last-name" type="text" inputMode="text"
-                        autoComplete="give-name" required />
-                </label>
-                <label className="formulary-content">Work Email:
-                    <input name="work-email" type="text" inputMode="text"
-                         autoComplete="give-name" required/>
-                </label>
-                <label className="formulary-content">Phone number
-                    <input name="phone-number" type="text" inputMode="text"
-                        autoComplete="give-name" required/>
-                </label>
-                <label className="formulary-content">Role
-                    <input name="role" type="text" inputMode="text"
-                         autoComplete="give-name" required/>
-                 </label>
-                <label className="formulary-content">Tell us about your project
-                    <input name="Tell-us" placeholder type="text" inputMode="text"
-                        autoComplete="give-name" required/>
-                </label>
-                
-                <button type="submit" value="Enviar">Enviar</button>
-
-
-                <input type="hidden" name="_next" value= "http://localhost:5173"/>
-                <input type="hidden" name="_captcha" value="false" />
-            </form>
+  return (
+    <div
+      style={{
+        backgroundColor: "#000C66",
+        width: "100%",
+        padding: "70px",
+        marginBottom: "50px",
+      }}
+    >
+      <form onSubmit={sendEmail}>
+        <div>
+          <div class="app-form-group">
+            <label class="app-form-label">FULL NAME</label>
+            <input
+              class="app-form-control"
+              name="form_name"
+              placeholder="FULL NAME"
+            />
+          </div>
+          <div class="app-form-group">
+            <label class="app-form-label">EMAIL</label>
+            <input
+              class="app-form-control"
+              name="form_email"
+              placeholder="EMAIL"
+            />
+          </div>
+          <div class="app-form-group">
+            <label class="app-form-label">SUBJECT</label>
+            <input
+              class="app-form-control"
+              name="form_subject"
+              placeholder="SUBJECT"
+            />
+          </div>
+          <div class="app-form-group message">
+            <label class="app-form-label">MESSAGE</label>
+            <textarea
+              class="app-form-control message"
+              name="form_message"
+              placeholder="TELL US ABOUT YOURSELF"
+            />
+          </div>
         </div>
+        <input class="app-form-input" type="submit" value="Send" />
+      </form>
+    </div>
+  );
+};
 
-
-    )
-}
-
-export default Formulary
+export default Formulary;
