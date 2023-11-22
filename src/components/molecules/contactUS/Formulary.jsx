@@ -25,22 +25,50 @@ const Formulary = () => {
   }
 
   return (
-    <div className="formulary">
-      <h1>
-        Send us a brief message and we will get in touch with you for scheduling
-        a short conversation with our experts.{" "}
-      </h1>
+    <div
+      style={{
+        backgroundColor: "#000C66",
+        width: "100%",
+        padding: "70px",
+        marginBottom: "50px",
+      }}
+    >
       <form onSubmit={sendEmail}>
-        <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="from_name" />
-        <label>Email</label>
-        <input type="email" name="from_email" />
-        <label>Subject</label>
-        <input type="text" name="subject" />
-        <label>Message</label>
-        <textarea name="html_message" />
-        <input type="submit" value="Send" />
+        <div>
+          <div class="app-form-group">
+            <label class="app-form-label">FULL NAME</label>
+            <input
+              class="app-form-control"
+              name="form_name"
+              placeholder="FULL NAME"
+            />
+          </div>
+          <div class="app-form-group">
+            <label class="app-form-label">EMAIL</label>
+            <input
+              class="app-form-control"
+              name="form_email"
+              placeholder="EMAIL"
+            />
+          </div>
+          <div class="app-form-group">
+            <label class="app-form-label">SUBJECT</label>
+            <input
+              class="app-form-control"
+              name="form_subject"
+              placeholder="SUBJECT"
+            />
+          </div>
+          <div class="app-form-group message">
+            <label class="app-form-label">MESSAGE</label>
+            <textarea
+              class="app-form-control message"
+              name="form_message"
+              placeholder="TELL US ABOUT YOURSELF"
+            />
+          </div>
+        </div>
+        <input class="app-form-input" type="submit" value="Send" />
       </form>
     </div>
   );
