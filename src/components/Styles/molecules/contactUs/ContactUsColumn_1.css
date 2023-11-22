@@ -4,7 +4,7 @@
 }
 
 .contact-us-container {
-  background-color: #f7f7f7;
+  background-color: #013198;
   padding: 80px 85px 70px 85px;
 }
 
@@ -26,5 +26,18 @@
   line-height: 1.15;
   font-size: 20px;
   color: #000000;
+  font-size: 24px;
+}
+
+.contact-us-text-white {
+  line-height: 1.15;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.contact-us-text-white {
+  line-height: 1.15;
+  font-size: 20px;
+  color: #ffffff;
   font-size: 24px;
 }

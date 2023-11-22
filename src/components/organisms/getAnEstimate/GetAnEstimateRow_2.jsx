@@ -5,10 +5,10 @@ import "../../Styles/pages/getAnEstimate/GetAnEstimateRow_2.css";
 
 const GetAnEstimateRow_2 = () => {
   return (
-    <div style={{ backgroundColor: "#fafafa" }}>
+    <div style={{ backgroundColor: "#A9BEED" }}>
       <div
         className="get-an-estimate-row"
-        style={{ backgroundColor: "#fafafa" }}
+        style={{ backgroundColor: "#A9BEED" }}
       >
         <div className="get-an-estimate-row-content">
           <ContactUsColumn_1 />
