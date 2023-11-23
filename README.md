@@ -14,7 +14,7 @@
 
 Website : https://captiva.site
 
-## [Usage]
+## Usage
 
 ### Development
 
