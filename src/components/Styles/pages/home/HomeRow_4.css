@@ -1,0 +1,151 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.row-4 {
+  background-color: #dde8ff;
+}
+
+.row-4-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 350;
+  color: #000;
+  line-height: 1.1em;
+  font-size: 30px;
+  height: 2em;
+}
+
+.row-4-container {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  padding: 70px 15px;
+  max-width: 100%;
+  width: 1100px;
+  float: none;
+  margin: 0px auto;
+  visibility: visible;
+}
+
+.row-4-images-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto;
+}
+
+.row-4-img-1 {
+  /* filter: grayscale(1); */
+}
+
+.row-4-img-1:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-2 {
+  filter: grayscale(1);
+}
+
+.row-4-img-2:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-3 {
+  filter: grayscale(1);
+}
+
+.row-4-img-3:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-4 {
+  filter: grayscale(1);
+}
+
+.row-4-img-4:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-5 {
+  filter: grayscale(1);
+}
+
+.row-4-img-5:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-6 {
+  filter: grayscale(1);
+}
+
+.row-4-img-6:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-7 {
+  filter: grayscale(1);
+}
+
+.row-4-img-7:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-8 {
+  filter: grayscale(1);
+}
+
+.row-4-img-8:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-9 {
+  filter: grayscale(1);
+}
+
+.row-4-img-9:hover {
+  filter: grayscale(0);
+}
+
+.row-4-img-10 {
+  filter: grayscale(1);
+}
+
+.row-4-img-10:hover {
+  filter: grayscale(0);
+}

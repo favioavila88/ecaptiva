@@ -1,0 +1,57 @@
+.ca-row-1 {
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat;
+  background-image: url("../../../../assets/organisms/carrers/carrersRow_1/background-company-2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.ca_row_1-container {
+  padding: 0 15px;
+  max-width: 100%;
+  width: 1100px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.ca_row_1-content-text h2 {
+  color: #fff;
+  font-size: 70px;
+  line-height: 1.1em;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  font-weight: 500;
+}
+
+.ca_row_1_line {
+  color: #48958c;
+  font-size: 2.5rem;
+  position: relative;
+  margin-bottom: 54px;
+  content: "";
+  position: absolute;
+  width: 6rem;
+  height: 0.2rem;
+  top: 100%;
+  left: 0.25rem;
+  background: linear-gradient(
+    to left,
+    #fff 0%,
+    #fff 15%,
+    transparent 15%,
+    transparent 30%,
+    #fff 30%
+  );
+}
+
+.ca_row_1-content-text p {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.3em;
+  margin-bottom: 0;
+  letter-spacing: -1px;
+}

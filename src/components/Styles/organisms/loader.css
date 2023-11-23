@@ -1,0 +1,38 @@
+@keyframes beats {
+  from {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.loader-box {
+  width: 100%;
+  min-height: 100vh;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: beats 2s infinite;
+  transform-origin: center;
+}
+.loader-box img {
+  display: block;
+  width: 100%;
+  min-width: 100px;
+  max-width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}

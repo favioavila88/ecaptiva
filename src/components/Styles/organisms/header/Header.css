@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Monserrat";
+  font-weight: 900;
+  src: local("Monserrat"),
+    url(../../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+      format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-1 {
+  background-color: transparent;
+  z-index: 5000;
+  height: 80px;
+  position: relative;
+  display: flex;
+  top: 0;
+  font-family: Monserrat;
+}
+
+.contain-header {
+  position: fixed;
+  max-width: 100%;
+  float: none;
+  margin: 0 auto;
+  min-width: 100%;
+  transition-property: all;
+  transition-duration: 1s;
+  font-family: Monserrat;
+}
+
+.contain-header.active {
+  transition-property: all;
+  background: #111013
+  ;
+  transition-duration: 1s;
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+}

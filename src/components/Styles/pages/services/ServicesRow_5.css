@@ -1,0 +1,185 @@
+.s-row-5 {
+    background-color: #fafafa;
+}
+
+.s-row-5-container {
+    padding: 70px 15px;
+    max-width: 100%;
+    width: 1100px;
+    float: none;
+    margin: 0px auto;
+}
+
+.s-row-5-title h3{
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: 1.1em;
+    font-weight: 650;
+    text-align: center;
+}
+
+.s-row-5-title div {
+    background-color: #2c7c64
+    ;
+    height: 4px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.s-row-5-images-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+.s-row-5-images-container img {
+    width: 200px;
+    text-align: center;
+}
+
+
+/*efecto hover*/
+.s-row-5-img-1{
+    filter: grayscale(1);
+}
+.s-row-5-img-1:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-2{
+    filter: grayscale(1);
+}
+.s-row-5-img-2:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-3{
+    filter: grayscale(1);
+}
+.s-row-5-img-3:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-4{
+    filter: grayscale(1);
+}
+.s-row-5-img-4:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-5{
+    filter: grayscale(1);
+}
+.s-row-5-img-5:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-6{
+    filter: grayscale(1);
+}
+.s-row-5-img-6:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-7{
+    filter: grayscale(1);
+}
+.s-row-5-img-7:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-8{
+    filter: grayscale(1);
+}
+.s-row-5-img-8:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-9{
+    filter: grayscale(1);
+}
+.s-row-5-img-9:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-10{
+    filter: grayscale(1);
+}
+.s-row-5-img-10:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-11{
+    filter: grayscale(1);
+}
+.s-row-5-img-11:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-12{
+    filter: grayscale(1);
+}
+.s-row-5-img-12:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-13{
+    filter: grayscale(1);
+}
+.s-row-5-img-13:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-14{
+    filter: grayscale(1);
+}
+.s-row-5-img-14:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-15{
+    filter: grayscale(1);
+}
+.s-row-5-img-15:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-16{
+    filter: grayscale(1);
+}
+.s-row-5-img-16:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-17{
+    filter: grayscale(1);
+}
+.s-row-5-img-17:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-18{
+    filter: grayscale(1);
+}
+.s-row-5-img-18:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-19{
+    filter: grayscale(1);
+}
+.s-row-5-img-19:hover{
+    filter: grayscale(0);
+}
+
+.s-row-5-img-20{
+    filter: grayscale(1);
+}
+.s-row-5-img-20:hover{
+    filter: grayscale(0);
+}
+
+

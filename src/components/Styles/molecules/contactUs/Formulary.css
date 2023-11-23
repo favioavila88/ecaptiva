@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Monserrat";
+  font-weight: 900;
+  src: local("Monserrat"),
+    url(../../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+      format("truetype");
+}
+
+.formulary {
+  background-color: #fff;
+  padding: 80px 0 70px 0;
+}
+
+.formulary h1 {
+  font-size: 20px;
+  font-family: Monserrat, sailec-medium;
+  margin-bottom: 0px;
+  letter-spacing: -1.3px;
+  color: #000;
+  line-height: 1.1em;
+}
+
+div .first-nam {
+  margin-top: 25px;
+}
+
+input {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  padding: 6px;
+  color: #8b8b8b;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+.error-msg {
+  display: none;
+  color: red;
+}
+
+input:invalid + .error-msg {
+  display: block;
+}
+
+.formulary-content {
+  font-family: Monserrat, sailec-medium;
+  margin-top: 15px;
+}
+
+button[type="submit"] {
+  background-color: #1d63f5;
+  border: solid 3px #1d63f5;
+  color: white;
+  padding: 12px 25px 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.app-form-group {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.app-form-group.message {
+  min-height: 20px;
+  max-height: 20px;
+  margin-bottom: 80px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-label {
+  width: 100%;
+  color: #a9beed;
+  font-size: 12px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 5px 0 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.app-form-control.message {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 60px;
+  overflow: hidden;
+}
+
+.app-form-control::placeholder {
+  color: #666;
+}
+
+.app-form-control:focus {
+  border-bottom-color: #ddd;
+}
+
+.app-form-input {
+  color: white;
+  background-color: #013198;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #1d63f5;
+}
+
+.app-form-input:hover {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: #1d63f5;
+}

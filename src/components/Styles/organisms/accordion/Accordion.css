@@ -1,0 +1,6 @@
+.collapse__content.collapsed {
+  display: none;
+}
+.collapsed__content.expanded {
+  display: block;
+}

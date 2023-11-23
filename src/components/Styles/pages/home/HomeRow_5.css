@@ -1,0 +1,137 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.row-5 {
+    background-color: #fff;
+    align-items: center;
+    padding: 20px;
+    width: 900px;
+    float: none;
+    margin: 0px auto;
+    position: relative;
+    visibility: visible;
+  }
+  
+  .row-5-container {
+    height: 370px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 70px 15px;
+    max-width: 100%;
+    float: none;
+    margin: 0px auto;
+    position: relative;
+    visibility: visible;
+  }
+  
+  .row-5-title-text {
+    color: #282e2a;
+      line-height: 1.1em;
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      text-align: center;
+  }
+  
+  .slide {
+    width: 750%;
+    height: 50%;
+    display: flex;
+  }
+  
+  .slide input {
+    display: none;
+  }
+  
+  .st {
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .st div {
+    width: 850px;
+    height: 500px;
+    text-align: center;
+    color: #818181;
+    z-index: 2;
+  }
+  
+  .nav-m {
+    width: 800px;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .m-btn {
+    border: 2px solid #1d63f5;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-right: 30px;
+  }
+  
+  .m-bts:not(:last-child) {
+    justify-content: center;
+  }
+  
+  .m-btn:hover {
+    background-color: #1d63f5;
+  }
+  
+  #radio1:checked~.m-btn:hover {
+    background-color: #1d63f5;
+  }
+  
+  #radio1:checked~.first {
+    margin-left: 0;
+  }
+  
+  #radio2:checked~.first {
+    margin-left: -20%;
+  }
+  
+  #radio3:checked~.first {
+    margin-left: -40%;
+  }
+  
+  .row-5-name-grade {
+    color: #282e2a;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    -webkit-margin-before: 1rem;
+    -webkit-margin-after: 1rem;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+  
+  .row-5-link {
+    color: #1d63f5;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .row-5-text-paragraph {
+    color: #818181;
+    font-size: 1.4em;
+    line-height: 1.5em;
+    position: relative;
+    z-index: 2;
+    font-weight: 400;
+    text-rendering: optimizelegibility;
+    margin-bottom: 20px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  
+  

@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Monserrat";
+  font-weight: 900;
+  src: local("Monserrat"),
+    url(../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
+      format("truetype");
+}
+
+body {
+  font-family: Monserrat;
+}

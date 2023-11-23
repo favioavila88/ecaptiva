@@ -1,0 +1,37 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-image: url("../../../../assets/organisms/home/homeRow_3/home-5.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 36em;
+}
+
+.row-3-container {
+    padding: 100px 0px;
+    max-width: 100%;
+    width: 550px;
+    margin: 0 auto;
+    visibility: visible;
+}
+
+.row-3-text-container{
+    font-size: 25px;
+    line-height: 1.7em;
+    letter-spacing: -.3px;
+    color: #555;
+}
+
+.row-3-img {
+    max-width: 100%;
+    border: 0;
+    vertical-align: bottom;
+    width: 50px;
+    height: 50px;
+}
+
