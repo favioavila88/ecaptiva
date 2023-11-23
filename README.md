@@ -1,5 +1,3 @@
-# ![WebApp]
-
 # WebApp
 
 <table>
