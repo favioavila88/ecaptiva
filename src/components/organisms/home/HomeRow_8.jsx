@@ -1,10 +1,10 @@
 import '../../Styles/pages/home/HomeRow_8.css';
 
-import usa from '../../../assets/organisms/home/homeRow_8/usa-turq-1.png'
-import chat from '../../../assets/organisms/home/homeRow_8/chat-turq-1.png'
-import team from '../../../assets/organisms/home/homeRow_8/team-turq-1.png'
-import recruiting from '../../../assets/organisms/home/homeRow_8/recruiting-turq-1.png'
-import timezone from '../../../assets/organisms/home/homeRow_8/timezone-turq-1.png'
+import usa from '../../../assets/organisms/home/homeRow_8/IconAzul6.png'
+import chat from '../../../assets/organisms/home/homeRow_8/IconAzul8.png'
+import team from '../../../assets/organisms/home/homeRow_8/IconAzul10.png'
+import recruiting from '../../../assets/organisms/home/homeRow_8/IconAzul9.png'
+import timezone from '../../../assets/organisms/home/homeRow_8/IconAzul11.png'
 
 
 const HomeRow_8 = () => {
