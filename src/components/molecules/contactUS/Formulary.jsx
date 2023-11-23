@@ -29,8 +29,7 @@ const Formulary = () => {
       style={{
         backgroundColor: "#013198",
         width: "100%",
-        padding: "70px",
-        marginBottom: "50px",
+        padding: "70px 85px 70px 70px",
       }}
     >
       <form onSubmit={sendEmail}>
@@ -41,6 +40,7 @@ const Formulary = () => {
               class="app-form-control"
               name="form_name"
               placeholder="FULL NAME"
+              required
             />
           </div>
           <div class="app-form-group">
@@ -49,6 +49,8 @@ const Formulary = () => {
               class="app-form-control"
               name="form_email"
               placeholder="EMAIL"
+              type="email"
+              required
             />
           </div>
           <div class="app-form-group">
@@ -57,6 +59,7 @@ const Formulary = () => {
               class="app-form-control"
               name="form_subject"
               placeholder="SUBJECT"
+              required
             />
           </div>
           <div class="app-form-group message">
@@ -65,6 +68,7 @@ const Formulary = () => {
               class="app-form-control message"
               name="form_message"
               placeholder="TELL US ABOUT YOURSELF"
+              required
             />
           </div>
         </div>
