@@ -5,14 +5,22 @@ import MenuList from "../../../constants/MenuList";
 
 const Navbar = () => {
   return (
-
-    <div className="navbar">
-      <nav className="content-navbar">
+    <div>
+      <nav>
         <ul className="text-navbar">
           {MenuList.map((item) => {
             return (
-              <li key={item.id}>
-                <NavLink to={item.path} className={item.style}>
+              <li className="" key={item.id}>
+                <NavLink
+                  to={item.path}
+                  className={({ isActive }) => {
+                    return isActive
+                      ? "testing-style-a"
+                      : item.path == "./getAnEstimate"
+                      ? "border-solid"
+                      : "navbar-link";
+                  }}
+                >
                   {item.text}
                 </NavLink>
               </li>
