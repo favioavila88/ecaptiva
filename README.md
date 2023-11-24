@@ -4,7 +4,7 @@
 <tr>
 <td>
   The Captiva main site displays all company related information about our Captiva Academy and Captiva Nearshore for software development and staff augmentation. 
-  Captiva Academy site helps to find information about courses and any related training that will be held on Captiva Academy installations. also is a point of contact form to apply to our tech academy.
+  Captiva Academy site helps to find information about courses and any related training that will be held on Captiva Academy installations, also is a point of contact form to apply to our tech academy.
 </td>
 </tr>
 </table>
