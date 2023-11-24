@@ -57,9 +57,10 @@ const Formulary = () => {
               <label className="app-form-label">PHONE NUMBER</label>
               <input
                 className="app-form-control"
-                name="form_email"
-                placeholder="PHONE NUMBER"
-                type="email"
+                name="form_phone_number"
+                placeholder="59179779797"
+                type="tel"
+                pattern="[0-9]{11,19}"
                 required
               />
             </div>

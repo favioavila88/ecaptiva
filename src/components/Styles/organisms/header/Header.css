@@ -32,7 +32,7 @@
 
 .content-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
 }
