@@ -28,52 +28,63 @@ const Formulary = () => {
     <div
       style={{
         backgroundColor: "#013198",
-        width: "100%",
-        padding: "70px 85px 70px 70px",
+        width: "70%",
       }}
     >
-      <form onSubmit={sendEmail}>
-        <div>
-          <div class="app-form-group">
-            <label class="app-form-label">FULL NAME</label>
-            <input
-              class="app-form-control"
-              name="form_name"
-              placeholder="FULL NAME"
-              required
-            />
+      <div style={{ padding: "45px 85px 70px 70px" }}>
+        <form onSubmit={sendEmail}>
+          <div>
+            <div className="app-form-group">
+              <label className="app-form-label">FULL NAME</label>
+              <input
+                className="app-form-control"
+                name="form_name"
+                placeholder="FULL NAME"
+                required
+              />
+            </div>
+            <div className="app-form-group">
+              <label className="app-form-label">EMAIL</label>
+              <input
+                className="app-form-control"
+                name="form_email"
+                placeholder="EMAIL"
+                type="email"
+                required
+              />
+            </div>
+            <div className="app-form-group">
+              <label className="app-form-label">PHONE NUMBER</label>
+              <input
+                className="app-form-control"
+                name="form_email"
+                placeholder="PHONE NUMBER"
+                type="email"
+                required
+              />
+            </div>
+            <div className="app-form-group">
+              <label className="app-form-label">SUBJECT</label>
+              <input
+                className="app-form-control"
+                name="form_subject"
+                placeholder="SUBJECT"
+                required
+              />
+            </div>
+            <div className="app-form-group message">
+              <label className="app-form-label">MESSAGE</label>
+              <textarea
+                className="app-form-control message"
+                name="form_message"
+                placeholder="TELL US ABOUT YOURSELF"
+                required
+              />
+            </div>
           </div>
-          <div class="app-form-group">
-            <label class="app-form-label">EMAIL</label>
-            <input
-              class="app-form-control"
-              name="form_email"
-              placeholder="EMAIL"
-              type="email"
-              required
-            />
-          </div>
-          <div class="app-form-group">
-            <label class="app-form-label">SUBJECT</label>
-            <input
-              class="app-form-control"
-              name="form_subject"
-              placeholder="SUBJECT"
-              required
-            />
-          </div>
-          <div class="app-form-group message">
-            <label class="app-form-label">MESSAGE</label>
-            <textarea
-              class="app-form-control message"
-              name="form_message"
-              placeholder="TELL US ABOUT YOURSELF"
-              required
-            />
-          </div>
-        </div>
-        <input class="app-form-input" type="submit" value="Send" />
-      </form>
+          <input className="app-form-input" type="submit" value="Send" />
+        </form>
+      </div>
     </div>
   );
 };
