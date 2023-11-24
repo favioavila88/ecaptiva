@@ -3,9 +3,8 @@
 <table>
 <tr>
 <td>
-  A webapp using ReactJS API to display all information about our company.
-  Helps to the use to find information about courses, trainers and blogs about technology.
-  Provides a contact form to apply in our company.
+  The Captiva main site displays all company related information about our Captiva Academy and Captiva Nearshore for software development and staff augmentation. 
+  Captiva Academy site helps to find information about courses and any related training that will be held on Captiva Academy installations. also is a point of contact form to apply to our tech academy.
 </td>
 </tr>
 </table>
