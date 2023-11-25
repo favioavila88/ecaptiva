@@ -10,13 +10,28 @@ const CareerBase = ({ title, text, image, reverse, subtitle, imageClass }) => {
     <div className="ca-row-2">
       <div className="ca-row-2-container">
         <div className={!reverse ? "ca-row-3-content" : "ca-row-2-content"}>
-          <div className="ca-row-2-content-text">
+          <div
+            className={"ca-row-2-content-text"}
+            style={reverse ? { paddingLeft: "35px" } : { paddingRight: "35px" }}
+          >
             <h2>{title}</h2>
-            {!isNullOrEmpty ? <h3>{subtitle}</h3> : null}
-            <p>{text}</p>
+            {!isNullOrEmpty ? <h3>{subtitle}</h3> : <></>}
+            <p
+              style={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                maxWidth: "520",
+              }}
+            >
+              {text}
+            </p>
           </div>
           <div className="ca-row-2-img">
-            <img src={image} alt="careers_01" className="cp-row-4-img-content img" />
+            <img
+              src={image}
+              alt="careers_01"
+              className="cp-row-4-img-content img"
+            />
           </div>
         </div>
       </div>
