@@ -1,14 +1,8 @@
-@font-face {
-  font-family: "Monserrat";
-  font-weight: 900;
-  src: local("Monserrat"),
-    url(../../../../assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf)
-      format("truetype");
-}
-
 .text-navbar {
-  display: flex;
-  align-items: center;
+  display: "grid";
+  grid-template-columns: "15% 70% 15%";
+  grid-template-rows: "100%";
+  grid-gap: "10px";
 }
 
 .navbar-link {
@@ -51,7 +45,6 @@ div ul li {
   list-style: none;
   text-align: center;
   padding-left: 15px;
-  padding-right: 15px;
   margin-top: 9px;
   font-weight: 750; /*negrita*/
   align-content: center;

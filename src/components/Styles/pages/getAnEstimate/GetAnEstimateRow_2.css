@@ -1,12 +1,12 @@
 .get-an-estimate-row {
-  padding: 0 15px;
   max-width: 100%;
-  width: 1100px;
+  display: flex;
   float: none;
   margin: 0 auto;
 }
 
 .get-an-estimate-row-content {
+  justify-content: center;
   display: flex;
   background-color: #013198;
 }

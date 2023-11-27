@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Monserrat";
-  font-weight: 900;
-  src: local("Monserrat"),
-    url(../../../../assets/fonts/Montserrat/static/Montserrat-Regular.ttf)
-      format("truetype");
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -34,14 +26,13 @@
 
 .contain-header.active {
   transition-property: all;
-  background: #111013
-  ;
+  background: #111013;
   transition-duration: 1s;
 }
 
 .content-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
 }

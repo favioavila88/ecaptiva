@@ -5,15 +5,28 @@ import "../../Styles/pages/getAnEstimate/GetAnEstimateRow_2.css";
 
 const GetAnEstimateRow_2 = () => {
   return (
-    <div style={{ backgroundColor: "#A9BEED" }}>
+    <div
+      style={{
+        backgroundColor: "#A9BEED",
+      }}
+    >
       <div
         className="get-an-estimate-row"
-        style={{ backgroundColor: "#A9BEED" }}
+        style={{
+          backgroundColor: "#A9BEED",
+          display: "grid",
+          gridTemplateColumns: "15% 70% 15%",
+          gridTemplateRows: "100%",
+          gridGap: "10px",
+        }}
       >
-        <div className="get-an-estimate-row-content">
-          <ContactUsColumn_1 />
-          <Formulary />
-        </div>
+        <>
+          <div></div>
+          <div style={{ display: "inline-flex" }}>
+            <ContactUsColumn_1 />
+            <Formulary />
+          </div>
+        </>
       </div>
     </div>
   );
