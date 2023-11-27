@@ -19,9 +19,21 @@ const Header = () => {
   return (
     <div className="header-1">
       <div className={navbar ? "contain-header active" : "contain-header"}>
-        <div className="content-header">
-          <Logo />
-          <Navbar />
+        <div>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "15% 70% 15%",
+              gridTemplateRows: "100%",
+              gridGap: "10px",
+            }}
+          >
+            <div></div>
+            <div className="content-header">
+              <Logo />
+              <Navbar />
+            </div>
+          </div>
         </div>
       </div>
     </div>
