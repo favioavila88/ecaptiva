@@ -9,7 +9,7 @@ const CompanyRow_4 = () => {
       text="CAPTIVA Software LLC. is a company located in Cochabamba that specializes in improving 
             the engineering skills of any firm worldwide. We increase the intellectual production 
             of our clients by providing the most outstanding human resources through a Nearshore 
-            model. Based in the Valley of Bolivia - Cochabamba,"
+            model. Based in the Valley of Cochabamba - Bolivia."
       title="CAPTIVA true story"
       image={company}
       reverse={false}
