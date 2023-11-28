@@ -78,6 +78,7 @@
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  padding-right: 20px;
 }
 .tp-row-3-item figure:hover img {
   -webkit-transform: scale(1.3);
