@@ -208,22 +208,46 @@ const TheProofRow_3 = () => {
       <div className="tp-row-3-container">
         <div className="tp-row-3-text-content"></div>
         <br />
-        <div className="tp-row-3-content-item">
-          {menu
-            .filter((item) => !selectedType || item.type === selectedType)
-            .map((item) => (
-              <div className="tp-row-3-item" key={item.id}>
-                <figure>
-                  <img src={item.image} alt={item.name} />
-                </figure>
-                <div className="tp-row-3-content-text">
-                  <div className="tp-row-3-title-text">{item.name}</div>
-                  <div className="tp-row-3-subtitle-text">
-                    {item.description}
+        <div
+          className="tp-row-3-content-item"
+          style={{
+            backgroundColor: "#A9BEED",
+            display: "grid",
+            gridTemplateColumns: "5% 90% 5%",
+            gridTemplateRows: "100%",
+            gridGap: "10px",
+          }}
+        >
+          <>
+            <div></div>
+            <div
+              style={{
+                display: "grid",
+                justifyContent: "space-evenly",
+                justifyItems: "center",
+                alignContent: "space-evenly",
+                alignItems: "center",
+                gridTemplateColumns: "500px 500px 500px",
+              }}
+            >
+              {menu
+                .filter((item) => !selectedType || item.type === selectedType)
+                .map((item) => (
+                  <div className="tp-row-3-item" key={item.id}>
+                    <figure>
+                      <img src={item.image} alt={item.name} />
+                    </figure>
+                    <div className="tp-row-3-content-text">
+                      <div className="tp-row-3-title-text">{item.name}</div>
+                      <div className="tp-row-3-subtitle-text">
+                        {item.description}
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            ))}
+                ))}
+            </div>
+            <div></div>
+          </>
         </div>
       </div>
     </div>
