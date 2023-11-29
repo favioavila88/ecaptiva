@@ -8,11 +8,11 @@
 }
 
 .ca_row_1-container {
-  padding: 0 15px;
+  padding: 0 0px;
   max-width: 100%;
-  width: 1100px;
+  width: 100%;
   height: 100vh;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   align-items: center;
 }
