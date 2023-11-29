@@ -46,16 +46,6 @@ const CompanyRow_2 = () => {
               <img src={qaRight} alt="qaRight" className="qaRight" />
             </div>
           </>
-          {/* <div className="cp-row-2-content-left">
-              <img src={qaLeft} alt="qaLeft" className="qaLeft" />
-              <h3>
-                Through high-end processes and engineers, we provide the service
-                and transparency our clients need.
-              </h3>
-              <h4 className="name-ceo">Christian Alvaro Avila Perez –</h4>
-              <h4 className="post"> CEO</h4>
-              <img src={qaRight} alt="qaRight" className="qaRight" />
-            </div> */}
         </div>
       </>
     </div>

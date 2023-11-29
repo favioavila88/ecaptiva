@@ -4,12 +4,23 @@ import Carrousel from "../carrousel/Carrousel";
 const HomeRow_5 = () => {
   return (
     <>
-      <section className="row-5" style={{ padding: "70px 15px 20px 15px" }}>
+      <section
+        className="row-5"
+        style={{
+          display: "grid",
+          gridTemplateColumns: "15% 70% 15%",
+          gridTemplateRows: "100%",
+          gridGap: "10px",
+        }}
+      >
+        <div></div>
         <div>
-          <div className="row-5-title-text">
-            <h3 className="row-5-title">WHAT OUR CLIENTS SAY</h3>
+          <div>
+            <div className="row-5-title-text">
+              <h3 className="row-5-title">WHAT OUR CLIENTS SAY</h3>
+            </div>
+            <Carrousel />
           </div>
-          <Carrousel />
         </div>
       </section>
     </>

@@ -1,51 +1,48 @@
 .s-row-4 {
-    background-image: url("../../../../assets/organisms/services/servicesRow_4/cta-unique-model-2.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 25em;
-
+  background-image: url("../../../../assets/organisms/services/servicesRow_4/cta-unique-model-2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 25em;
 }
 
 .s-row-4-container {
-    padding: 100px 15px;
-    max-width: 100%;
-    width: 1100px;
-    margin: 0 auto;
+  padding: 100px 0px;
+  max-width: 100%;
+  width: 100%;
 }
 
 .s-row-4-title {
-    max-width: 100%;
-    width: 800px;
+  max-width: 100%;
+  width: 800px;
 }
 
-
 .s-row-4-title h2 {
-    color: #fff;
-    font-size: 4em;
-    font-family: sailec-medium;
-    line-height: 1em;
-    margin-bottom: 35px;
-    font-weight: 600;
+  color: #fff;
+  font-size: 4em;
+  font-family: sailec-medium;
+  line-height: 1em;
+  margin-bottom: 35px;
+  font-weight: 600;
 }
 
 .s-row-4-button {
-    text-transform: uppercase;
-    font-size: 15px;
-    border-radius: 5px;
-    border: 3px solid #fff;
-    padding: 17px 24px 12px 24px;
-    color: #fff;
-    font-weight: 900;
-    letter-spacing: .5px;
-    background-color: transparent;
-    transition: all .3s ease-in-out;
-    text-decoration: none;
-    display: inline-block;
- }
+  text-transform: uppercase;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 3px solid #fff;
+  padding: 17px 24px 12px 24px;
+  color: #fff;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
 
 .s-row-4-button:hover {
-    color: #2c7c64;
-    background: #fff;
-    text-shadow: none;
+  color: #2c7c64;
+  background: #fff;
+  text-shadow: none;
 }
