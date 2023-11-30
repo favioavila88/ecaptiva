@@ -73,6 +73,10 @@
   left: 10px;
 }
 
+.black-text {
+  color: #011133;
+}
+
 .tp-row-3-item figure img {
   -webkit-transform: scale(1);
   transform: scale(1);

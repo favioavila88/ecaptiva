@@ -122,6 +122,7 @@ button[type="submit"] {
   text-transform: uppercase;
   border-radius: 4px;
   border: 1px solid #1d63f5;
+  width: 30%;
 }
 
 .app-form-input:hover {

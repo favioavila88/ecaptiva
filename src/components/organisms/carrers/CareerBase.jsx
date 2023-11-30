@@ -8,12 +8,22 @@ const CareerBase = ({ title, text, image, reverse, subtitle, imageClass }) => {
 
   return (
     <div className="ca-row-2">
-      <div className="ca-row-2-container">
+      <div
+        className={
+          imageClass == "before"
+            ? "ca-row-2-container"
+            : "ca-row-2-container before-test"
+        }
+        style={{
+          display: "grid",
+          gridTemplateColumns: "15% 70% 15%",
+          gridTemplateRows: "100%",
+          gridGap: "10px",
+        }}
+      >
+        <div></div>
         <div className={!reverse ? "ca-row-3-content" : "ca-row-2-content"}>
-          <div
-            className={"ca-row-2-content-text"}
-            style={reverse ? { paddingLeft: "35px" } : { paddingRight: "35px" }}
-          >
+          <div className={"ca-row-2-content-text"}>
             <h2>{title}</h2>
             {!isNullOrEmpty ? <h3>{subtitle}</h3> : <></>}
             <p

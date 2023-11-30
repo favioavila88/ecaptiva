@@ -13,6 +13,7 @@ const CompanyRow_5 = () => {
       title="How we work"
       image={company2}
       reverse={true}
+      imageClass={"before"}
     ></CareerBase>
   );
 };

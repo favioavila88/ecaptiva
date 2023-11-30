@@ -1,9 +1,9 @@
-import nut_dev from "../assets/organisms/services/servicesRow_3/nut-dev.png";
-import devops from "../assets/organisms/services/servicesRow_3/devops.png";
-import qa from "../assets/organisms/services/servicesRow_3/qa.png";
-import uxui from "../assets/organisms/services/servicesRow_3/uxui.png";
-import ia_dev from "../assets/organisms/services/servicesRow_3/ia-dev.png";
-import blockchain from "../assets/organisms/services/servicesRow_3/blockchain.png";
+import nut_dev from "../assets/organisms/services/servicesRow_3/nut-dev-blue.png";
+import devops from "../assets/organisms/services/servicesRow_3/devops-blue.png";
+import qa from "../assets/organisms/services/servicesRow_3/qa-blue.png";
+import uxui from "../assets/organisms/services/servicesRow_3/uxui-blue.png";
+import ia_dev from "../assets/organisms/services/servicesRow_3/ia-dev-blue.png";
+import blockchain from "../assets/organisms/services/servicesRow_3/blockchain-blue.png";
 
 const Labs = [
   {

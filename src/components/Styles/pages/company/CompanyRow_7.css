@@ -1,79 +1,78 @@
 .cp-row-7 {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .cp-row-7-container {
-    padding: 70px 15px;
-    max-width: 100%;
-    width: 1100px;
-    float: none;
-    margin: 0px auto;
-    visibility: visible;
+  padding: 70px 0px;
+  max-width: 100%;
+  width: 100%;
+  float: none;
+  visibility: visible;
 }
 
 .cp-row-7-title {
-    text-align: center;
-    margin-bottom: 70px;
-    visibility: visible;
+  text-align: center;
+  margin-bottom: 70px;
+  visibility: visible;
 }
 
 .cp-row-7-title h3 {
-    font-size: 32px;
-    margin-bottom: 15px;
-    color: #000;
-    line-height: 1.1em;
-    font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #000;
+  line-height: 1.1em;
+  font-weight: 500;
 }
 .cp-row-7-line {
-    background-color: #ff3366;
-    height: 4px;
-    width: 150px;
-    margin: 0 auto;
+  background-color: #ff3366;
+  height: 4px;
+  width: 150px;
+  margin: 0 auto;
 }
 
 .cp-row-7-content {
-    display: flex;
+  display: flex;
 }
 
 .cp-row-7-title-column-1 {
-    color: #008CE2;
+  color: #008ce2;
 }
 .cp-row-7-title-column-2 {
-    color: #F9035C;
+  color: #f9035c;
 }
 .cp-row-7-title-column-3 {
-    color: #FFC10D;
+  color: #ffc10d;
 }
 .cp-row-7-title-column-4 {
-    color: #FF6315;
+  color: #ff6315;
 }
 .cp-row-7-title-column-5 {
-    color: #85AA11;
+  color: #85aa11;
 }
 
 .cp-row-7-colum {
-    width: 20%;
-    text-align: center;
-    padding: 15px;
+  width: 20%;
+  text-align: center;
+  padding: 15px;
 }
 
-.cp-row-7-colum img{
-    width: 80px;
-    margin-bottom: 15px;
-    max-width: 100%;
+.cp-row-7-colum img {
+  width: 80px;
+  margin-bottom: 15px;
+  max-width: 100%;
 }
 
 .cp-row-7-colum h3 {
-    font-size: 18px;
-    line-height: 1.3em;
-    letter-spacing: -1px;
-    font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: -1px;
+  font-weight: 400;
 }
 
 .cp-row-7-colum p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 16px;
-    margin-top: 16px;
-    color: #5d5d5d;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  color: #5d5d5d;
 }
