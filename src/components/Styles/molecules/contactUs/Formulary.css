@@ -135,3 +135,18 @@ input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 0s 600000s, color 0s 600000s;
 }
+
+.PhoneInputInput {
+  background-color: #013198;
+  border: none;
+
+  border-color: #013198;
+}
+
+.PhoneInputInput:focus-visible {
+  outline: none;
+  background-color: #013198;
+  border: none;
+
+  border-color: #013198;
+}

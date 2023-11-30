@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 
 import "../../Styles/molecules/contactUs/Formulary.css";
 
@@ -13,22 +15,24 @@ const Formulary = () => {
   };
   const [formValues, setFormValues] = useState(initialValues);
   const [error, setError] = useState({});
+  const [value, setValue] = useState();
 
   const handleChange = (e) => {
+    console.log(e);
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
   };
 
   const isGreaterThen120Characters = (value) => {
-    value > 120;
+    return value > 120;
   };
 
   const isGreaterThen500Characters = (value) => {
-    value > 500;
+    return value > 500;
   };
 
   const isGreaterThen30Characters = (value) => {
-    value > 30;
+    return value > 30;
   };
 
   const validate = (values) => {
@@ -43,10 +47,10 @@ const Formulary = () => {
     } else if (isGreaterThen120Characters(values.email.length)) {
       errors.email = "The text may not be longer than 120 characters.";
     }
-    if (!values.phoneNumber) {
+    if (!value) {
       errors.phoneNumber = "PHONE NUMBER is required.";
-    } else if (isGreaterThen30Characters(values.phoneNumber.length)) {
-      errors.phoneNumber = "The text may not be longer than 120 characters.";
+    } else if (isGreaterThen30Characters(value.length)) {
+      errors.phoneNumber = "The text may not be longer than 30 characters.";
     }
     if (!values.subject) {
       errors.subject = "SUBJECT is required.";
@@ -70,6 +74,7 @@ const Formulary = () => {
     e.preventDefault();
     setError(validate(formValues));
     if (isInvalidForm() == false) {
+      console.log(e.target);
       emailjs
         .sendForm(
           "service_4ia0mi6",
@@ -127,14 +132,13 @@ const Formulary = () => {
             </div>
             <div className="app-form-group">
               <label className="app-form-label">PHONE NUMBER</label>
-              <input
+              <PhoneInput
                 className="app-form-control"
                 name="phoneNumber"
-                placeholder="59179779797"
-                type="tel"
-                pattern="[0-9]{11,19}"
-                value={formValues.phoneNumber}
-                onChange={handleChange}
+                style={{ backgroundColor: "#013198" }}
+                placeholder="Enter phone number"
+                value={value}
+                onChange={setValue}
                 maxLength="30"
               />
               <span className="app-form-label  error-span">
