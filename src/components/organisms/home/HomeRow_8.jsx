@@ -23,7 +23,9 @@ const HomeRow_8 = () => {
           <h3 className="row-8-title">OUR DIFFERENTIATORS</h3>
           <div className="row-8-column">
             <div className="row-8-item">
-              <img src={usa} className="row-8-imag-1" />
+              <div className="img-container">
+                <img src={usa} className="row-8-imag-1" />
+              </div>
               <h1 className="row-8-colum-title">Global</h1>
               <p className="row-8-colum-paragraph">
                 Our company serves on a global scale, operating in over 25
@@ -31,7 +33,9 @@ const HomeRow_8 = () => {
               </p>
             </div>
             <div className="row-8-item">
-              <img src={chat} className="row-8-imag-2" />
+              <div className="img-container">
+                <img src={chat} className="row-8-imag-2" />
+              </div>
               <h1 className="row-8-colum-title">Different industries</h1>
               <p className="row-8-colum-paragraph">
                 Our professionals have knowledge and experience in several areas
@@ -39,7 +43,9 @@ const HomeRow_8 = () => {
               </p>
             </div>
             <div className="row-8-item">
-              <img src={team} className="row-8-imag-3" />
+              <div className="img-container">
+                <img src={team} className="row-8-imag-3" />
+              </div>
               <h1 className="row-8-colum-title">Best talents</h1>
               <p className="row-8-colum-paragraph">
                 Captiva is in a constant search for the best professionals
@@ -47,7 +53,9 @@ const HomeRow_8 = () => {
               </p>
             </div>
             <div className="row-8-item">
-              <img src={recruiting} className="row-8-imag-4" />
+              <div className="img-container">
+                <img src={recruiting} className="row-8-imag-4" />
+              </div>
               <h1 className="row-8-colum-title">Remote first</h1>
               <p className="row-8-colum-paragraph">
                 At Captiva, we give preference to tasks carried out remotely,
@@ -55,7 +63,9 @@ const HomeRow_8 = () => {
               </p>
             </div>
             <div className="row-8-item">
-              <img src={timezone} className="row-8-imag-5" />
+              <div className="img-container">
+                <img src={timezone} className="row-8-imag-5" />
+              </div>
               <h1 className="row-8-colum-title">Worldwide projects</h1>
               <p className="row-8-colum-paragraph">
                 Here we carry out grandiose worldwide projects, which count on
