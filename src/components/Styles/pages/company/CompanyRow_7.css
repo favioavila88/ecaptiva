@@ -3,11 +3,10 @@
 }
 
 .cp-row-7-container {
-  padding: 70px 15px;
+  padding: 70px 0px;
   max-width: 100%;
-  width: 1100px;
+  width: 100%;
   float: none;
-  margin: 0px auto;
   visibility: visible;
 }
 
@@ -25,7 +24,7 @@
   font-weight: 500;
 }
 .cp-row-7-line {
-  background-color: #1d63f5;
+  background-color: #ff3366;
   height: 4px;
   width: 150px;
   margin: 0 auto;

@@ -3,11 +3,10 @@
 }
 
 .s-row-3-container {
-  padding: 70px 15px 20px 15px;
+  padding: 70px 0px 20px 0px;
   max-width: 100%;
-  width: 1100px;
   float: none;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .s-row-3-title {
@@ -24,7 +23,7 @@
 }
 
 .s-row-3-title div {
-  background-color: #1d63f5;
+  background-color: #ff3366;
   height: 4px;
   width: 150px;
   margin: 0 auto;
