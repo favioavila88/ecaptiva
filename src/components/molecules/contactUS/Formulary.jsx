@@ -19,22 +19,44 @@ const Formulary = () => {
     setFormValues({ ...formValues, [name]: value });
   };
 
+  const isGreaterThen120Characters = (value) => {
+    value > 120;
+  };
+
+  const isGreaterThen500Characters = (value) => {
+    value > 500;
+  };
+
+  const isGreaterThen30Characters = (value) => {
+    value > 30;
+  };
+
   const validate = (values) => {
     const errors = {};
     if (!values.fullName) {
-      errors.fullName = "FULL NAME is required";
+      errors.fullName = "FULL NAME is required.";
+    } else if (isGreaterThen120Characters(values.fullName.length)) {
+      errors.fullName = "The text may not be longer than 120 characters.";
     }
     if (!values.email) {
-      errors.email = "EMAIL is required";
+      errors.email = "EMAIL is required.";
+    } else if (isGreaterThen120Characters(values.email.length)) {
+      errors.email = "The text may not be longer than 120 characters.";
     }
     if (!values.phoneNumber) {
-      errors.phoneNumber = "PHONE NUMBER is required";
+      errors.phoneNumber = "PHONE NUMBER is required.";
+    } else if (isGreaterThen30Characters(values.phoneNumber.length)) {
+      errors.phoneNumber = "The text may not be longer than 120 characters.";
     }
     if (!values.subject) {
-      errors.subject = "SUBJECT is required";
+      errors.subject = "SUBJECT is required.";
+    } else if (isGreaterThen120Characters(values.subject.length)) {
+      errors.subject = "The text may not be longer than 120 characters.";
     }
     if (!values.message) {
-      errors.message = "MESSAGE is required";
+      errors.message = "MESSAGE is required.";
+    } else if (isGreaterThen500Characters(values.message.length)) {
+      errors.message = "The text may not be longer than 500 characters.";
     }
 
     return errors;
@@ -84,6 +106,7 @@ const Formulary = () => {
                 placeholder="FULL NAME"
                 value={formValues.fullName}
                 onChange={handleChange}
+                maxLength="120"
               />
               <span className="app-form-label error-span">
                 {error.fullName}
@@ -98,6 +121,7 @@ const Formulary = () => {
                 type="email"
                 value={formValues.email}
                 onChange={handleChange}
+                maxLength="120"
               />
               <span className="app-form-label error-span">{error.email}</span>
             </div>
@@ -111,6 +135,7 @@ const Formulary = () => {
                 pattern="[0-9]{11,19}"
                 value={formValues.phoneNumber}
                 onChange={handleChange}
+                maxLength="30"
               />
               <span className="app-form-label  error-span">
                 {error.phoneNumber}
@@ -124,6 +149,7 @@ const Formulary = () => {
                 placeholder="SUBJECT"
                 value={formValues.subject}
                 onChange={handleChange}
+                maxLength="120"
               />
               <span className="app-form-labe error-span">{error.subject}</span>
             </div>
@@ -135,6 +161,7 @@ const Formulary = () => {
                 placeholder="TELL US ABOUT YOURSELF"
                 value={formValues.message}
                 onChange={handleChange}
+                maxLength="500"
               />
               <span className="app-form-label error-span">{error.message}</span>
             </div>
