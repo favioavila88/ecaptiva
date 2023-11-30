@@ -13,7 +13,6 @@ const GetAnEstimateRow_2 = () => {
       <div
         className="get-an-estimate-row"
         style={{
-          backgroundColor: "#A9BEED",
           display: "grid",
           gridTemplateColumns: "15% 70% 15%",
           gridTemplateRows: "100%",
