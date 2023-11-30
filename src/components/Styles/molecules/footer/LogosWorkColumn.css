@@ -1,9 +1,10 @@
 .logos-column {
-margin-top: 80px;
-align-items: center;
+  margin-top: 30px;
+  align-items: center;
+  float: right;
 }
 
 .logos-column img {
-    width: 200px;
-    align-items: center;
+  width: 200px;
+  align-items: center;
 }

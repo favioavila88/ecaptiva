@@ -1,5 +1,7 @@
 import "../../Styles/pages/home/HomeRow_4.css";
+import "../../Styles//organisms/accordion/Accordion.css";
 import BrandsTrustUs from "../../../constants/BrandsTrustUs";
+import Accordion from "../accordion/Accordion";
 
 const HomeRow_4 = () => {
   return (

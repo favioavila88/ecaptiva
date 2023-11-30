@@ -11,42 +11,52 @@ import visa from "../assets/organisms/home/homeRow_4/visa.png";
 
 const BrandsTrustUs = [
   {
+    index: 0,
     id: 91,
     src: television_academy,
   },
   {
+    index: 1,
     id: 92,
     src: evernote,
   },
   {
+    index: 2,
     id: 93,
     src: bny_mellon,
   },
   {
+    index: 3,
     id: 94,
     src: sony_pictures,
   },
   {
+    index: 4,
     id: 95,
     src: history_channel,
   },
   {
+    index: 5,
     id: 96,
     src: nissan,
   },
   {
+    index: 6,
     id: 97,
     src: vts,
   },
   {
+    index: 7,
     id: 98,
     src: spredfast,
   },
   {
+    index: 8,
     id: 99,
     src: elementum,
   },
   {
+    index: 9,
     id: 90,
     src: visa,
   },
