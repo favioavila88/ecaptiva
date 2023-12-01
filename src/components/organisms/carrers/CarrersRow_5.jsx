@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import React from "react";
 import "../../Styles/pages/carrers/CarrersRow_5.css";
 
@@ -28,7 +29,10 @@ const CarrersRow_5 = () => {
                 customers. Come build a beautiful journey with us.
               </p>
             </div>
-            <div className="ca-row-5-button">APPLY HERE!</div>
+
+            <NavLink className={"ca-row-5-button"} to="/getAnEstimate">
+              APPLY HERE!
+            </NavLink>
           </div>
         </div>
       </div>

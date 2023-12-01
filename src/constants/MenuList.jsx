@@ -31,6 +31,12 @@ const MenuList = [
     id: "ml5",
     path: "./getAnEstimate",
     text: "GET AN ESTIMATE",
+    style: "border-solid-gs",
+  },
+  {
+    id: "ml6",
+    path: "./captivaAcademy",
+    text: "CAPTIVA ACADEMY",
     style: "border-solid",
   },
 ];

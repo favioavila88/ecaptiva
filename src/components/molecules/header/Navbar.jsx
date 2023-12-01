@@ -17,7 +17,7 @@ const Navbar = () => {
                     return isActive
                       ? "testing-style-a"
                       : item.path == "./getAnEstimate"
-                      ? "border-solid"
+                      ? "border-solid-gs"
                       : "navbar-link";
                   }}
                 >
