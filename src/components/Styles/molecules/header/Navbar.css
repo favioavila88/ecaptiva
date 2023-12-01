@@ -64,6 +64,20 @@ div ul li {
   font-size: 13px;
 }
 
+.border-solid-gs {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: solid 2px #1d63f5;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
 .navbar-link:hover {
   color: #1d63f5;
 }
