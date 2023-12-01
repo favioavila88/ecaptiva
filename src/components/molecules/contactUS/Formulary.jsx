@@ -38,27 +38,27 @@ const Formulary = () => {
   const validate = (values) => {
     const errors = {};
     if (!values.fullName) {
-      errors.fullName = "FULL NAME is required.";
+      errors.fullName = "Please complete this required field.";
     } else if (isGreaterThen120Characters(values.fullName.length)) {
       errors.fullName = "The text may not be longer than 120 characters.";
     }
     if (!values.email) {
-      errors.email = "EMAIL is required.";
+      errors.email = "Please complete this required field.";
     } else if (isGreaterThen120Characters(values.email.length)) {
       errors.email = "The text may not be longer than 120 characters.";
     }
     if (!value) {
-      errors.phoneNumber = "PHONE NUMBER is required.";
+      errors.phoneNumber = "Please complete this required field.";
     } else if (isGreaterThen30Characters(value.length)) {
       errors.phoneNumber = "The text may not be longer than 30 characters.";
     }
     if (!values.subject) {
-      errors.subject = "SUBJECT is required.";
+      errors.subject = "Please complete this required field.";
     } else if (isGreaterThen120Characters(values.subject.length)) {
       errors.subject = "The text may not be longer than 120 characters.";
     }
     if (!values.message) {
-      errors.message = "MESSAGE is required.";
+      errors.message = "Please complete this required field.";
     } else if (isGreaterThen500Characters(values.message.length)) {
       errors.message = "The text may not be longer than 500 characters.";
     }
@@ -96,7 +96,7 @@ const Formulary = () => {
   return (
     <div
       style={{
-        backgroundColor: "#013198",
+        backgroundColor: "#fff",
         width: "70%",
       }}
     >
@@ -104,11 +104,11 @@ const Formulary = () => {
         <form onSubmit={sendEmail}>
           <div>
             <div className="app-form-group">
-              <label className="app-form-label">FULL NAME</label>
+              <label className="app-form-label">Full name</label>
               <input
                 className="app-form-control"
                 name="fullName"
-                placeholder="FULL NAME"
+                placeholder="Full name"
                 value={formValues.fullName}
                 onChange={handleChange}
                 maxLength="120"
@@ -118,11 +118,11 @@ const Formulary = () => {
               </span>
             </div>
             <div className="app-form-group">
-              <label className="app-form-label">EMAIL</label>
+              <label className="app-form-label">Email</label>
               <input
                 className="app-form-control"
                 name="email"
-                placeholder="EMAIL"
+                placeholder="Email"
                 type="email"
                 value={formValues.email}
                 onChange={handleChange}
@@ -131,12 +131,12 @@ const Formulary = () => {
               <span className="app-form-label error-span">{error.email}</span>
             </div>
             <div className="app-form-group">
-              <label className="app-form-label">PHONE NUMBER</label>
+              <label className="app-form-label">Phone number</label>
               <PhoneInput
                 className="app-form-control"
                 name="phoneNumber"
-                style={{ backgroundColor: "#013198" }}
-                placeholder="Enter phone number"
+                style={{ backgroundColor: "#fff" }}
+                placeholder="Phone number"
                 value={value}
                 onChange={setValue}
                 maxLength="30"
@@ -146,23 +146,23 @@ const Formulary = () => {
               </span>
             </div>
             <div className="app-form-group">
-              <label className="app-form-label">SUBJECT</label>
+              <label className="app-form-label">Subject</label>
               <input
                 className="app-form-control"
                 name="subject"
-                placeholder="SUBJECT"
+                placeholder="Subject"
                 value={formValues.subject}
                 onChange={handleChange}
                 maxLength="120"
               />
-              <span className="app-form-labe error-span">{error.subject}</span>
+              <span className="app-form-label error-span">{error.subject}</span>
             </div>
             <div className="app-form-group message">
-              <label className="app-form-label">MESSAGE</label>
+              <label className="app-form-label">Message</label>
               <textarea
                 className="app-form-control message"
                 name="message"
-                placeholder="TELL US ABOUT YOURSELF"
+                placeholder="Tell us about yourself"
                 value={formValues.message}
                 onChange={handleChange}
                 maxLength="500"
