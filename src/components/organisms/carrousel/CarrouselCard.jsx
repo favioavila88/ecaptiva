@@ -32,7 +32,7 @@ const CarrouselCard = ({ list }) => {
       >
         <div onClick={() => back()}>
           <svg
-            style={{ opacity: "0.5" }}
+            style={{ opacity: "0.5", cursor: "pointer" }}
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
             viewBox="0 0 320 512"
@@ -58,7 +58,7 @@ const CarrouselCard = ({ list }) => {
         </div>
         <div onClick={() => next()}>
           <svg
-            style={{ opacity: "0.5" }}
+            style={{ opacity: "0.5", cursor: "pointer" }}
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
             viewBox="0 0 320 512"
