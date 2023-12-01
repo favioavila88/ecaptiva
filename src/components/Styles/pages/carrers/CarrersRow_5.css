@@ -54,4 +54,5 @@
 .ca-row-5-button:hover {
   background: #f7f7f7;
   color: #1d63f5;
+  border: 1px solid #1d63f5;
 }
