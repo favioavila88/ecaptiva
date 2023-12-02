@@ -15,10 +15,16 @@ const MenuList = [
     text: "SERVICES",
     style: "navbar-link",
   },
+  // {
+  //   id: "ml3",
+  //   path: "./theProof",
+  //   text: "THE PROOF",
+  //   style: "navbar-link",
+  // },
   {
     id: "ml3",
-    path: "./theProof",
-    text: "THE PROOF",
+    path: "./blog",
+    text: "BLOG",
     style: "navbar-link",
   },
   {
