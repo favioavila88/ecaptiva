@@ -21,7 +21,15 @@ const GetAnEstimateRow_2 = () => {
       >
         <>
           <div></div>
-          <div style={{ display: "inline-flex" }}>
+          <div
+            style={{
+              display: "inline-flex",
+              border: "2px solid #1d63f5",
+              borderRadius: "15px",
+              padding: "15px 0px",
+              margin: "40px 0",
+            }}
+          >
             <ContactUsColumn_1 />
             <Formulary />
           </div>
