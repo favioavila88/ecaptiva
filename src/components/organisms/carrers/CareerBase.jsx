@@ -31,6 +31,8 @@ const CareerBase = ({ title, text, image, reverse, subtitle, imageClass }) => {
                 textAlign: "justify",
                 textJustify: "inter-word",
                 maxWidth: "520",
+                lineHeight: "30px",
+                paddingTop: "15px",
               }}
             >
               {text}
