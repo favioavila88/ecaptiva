@@ -7,7 +7,7 @@ const GetAnEstimateRow_2 = () => {
   return (
     <div
       style={{
-        backgroundColor: "#A9BEED",
+        backgroundColor: "#fff",
       }}
     >
       <div
