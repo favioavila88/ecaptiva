@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
+import PhoneInput, { isPossiblePhoneNumber } from "react-phone-number-input";
 
 import "../../Styles/molecules/contactUs/Formulary.css";
 
@@ -18,7 +18,6 @@ const Formulary = () => {
   const [value, setValue] = useState();
 
   const handleChange = (e) => {
-    console.log(e);
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
   };
@@ -166,6 +165,11 @@ const Formulary = () => {
               />
               <span className="app-form-label  error-span">
                 {error.phoneNumber}
+                {value
+                  ? !isPossiblePhoneNumber(value)
+                    ? `Invalid phone number ${value}`
+                    : ""
+                  : ""}
               </span>
             </div>
             <div className="app-form-group">
