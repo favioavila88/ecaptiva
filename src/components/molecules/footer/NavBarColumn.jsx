@@ -51,22 +51,22 @@ const NavBarColumn = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                to="/getanestimate"
-                className={({ isActive }) => {
-                  return isActive ? "sitemap-a" : "navbar-link";
-                }}
-              >
-                Get an Estimate
-              </NavLink>
-            </li>
-            <li className="menu-item">
-              <NavLink
                 to="/captivaAcademy"
                 className={({ isActive }) => {
                   return isActive ? "sitemap-a" : "navbar-link";
                 }}
               >
                 Captiva Academy
+              </NavLink>
+            </li>
+            <li className="menu-item">
+              <NavLink
+                to="/getanestimate"
+                className={({ isActive }) => {
+                  return isActive ? "sitemap-a" : "navbar-link";
+                }}
+              >
+                Get an Estimate
               </NavLink>
             </li>
           </ul>
