@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import "react-phone-number-input/style.css";
-import PhoneInput from "react-phone-number-input";
+import PhoneInput, { isPossiblePhoneNumber } from "react-phone-number-input";
 
 import "../../Styles/molecules/contactUs/Formulary.css";
 
@@ -18,7 +18,6 @@ const Formulary = () => {
   const [value, setValue] = useState();
 
   const handleChange = (e) => {
-    console.log(e);
     const { name, value } = e.target;
     setFormValues({ ...formValues, [name]: value });
   };
@@ -72,9 +71,9 @@ const Formulary = () => {
 
   function sendEmail(e) {
     e.preventDefault();
+    formValues.phoneNumber = value;
     setError(validate(formValues));
     if (isInvalidForm() == false) {
-      console.log(e.target);
       emailjs
         .sendForm(
           "service_4ia0mi6",
@@ -104,7 +103,14 @@ const Formulary = () => {
         <form onSubmit={sendEmail}>
           <div>
             <div className="app-form-group">
-              <label className="app-form-label">Full name</label>
+              <label className="app-form-label">
+                Full name
+                {error.fullName ? (
+                  <span className="app-form-label error-span">*</span>
+                ) : (
+                  <></>
+                )}
+              </label>
               <input
                 className="app-form-control"
                 name="fullName"
@@ -118,7 +124,14 @@ const Formulary = () => {
               </span>
             </div>
             <div className="app-form-group">
-              <label className="app-form-label">Email</label>
+              <label className="app-form-label">
+                Email
+                {error.email ? (
+                  <span className="app-form-label error-span">*</span>
+                ) : (
+                  <></>
+                )}
+              </label>
               <input
                 className="app-form-control"
                 name="email"
@@ -131,8 +144,17 @@ const Formulary = () => {
               <span className="app-form-label error-span">{error.email}</span>
             </div>
             <div className="app-form-group">
-              <label className="app-form-label">Phone number</label>
+              <label className="app-form-label">
+                Phone number
+                {error.phoneNumber ? (
+                  <span className="app-form-label error-span">*</span>
+                ) : (
+                  <></>
+                )}
+              </label>
               <PhoneInput
+                international
+                defaultCountry="BO"
                 className="app-form-control"
                 name="phoneNumber"
                 style={{ backgroundColor: "#fff" }}
@@ -143,10 +165,22 @@ const Formulary = () => {
               />
               <span className="app-form-label  error-span">
                 {error.phoneNumber}
+                {value
+                  ? !isPossiblePhoneNumber(value)
+                    ? `Invalid phone number ${value}`
+                    : ""
+                  : ""}
               </span>
             </div>
             <div className="app-form-group">
-              <label className="app-form-label">Subject</label>
+              <label className="app-form-label">
+                Subject
+                {error.subject ? (
+                  <span className="app-form-label error-span">*</span>
+                ) : (
+                  <></>
+                )}
+              </label>
               <input
                 className="app-form-control"
                 name="subject"
@@ -158,7 +192,14 @@ const Formulary = () => {
               <span className="app-form-label error-span">{error.subject}</span>
             </div>
             <div className="app-form-group message">
-              <label className="app-form-label">Message</label>
+              <label className="app-form-label">
+                Message
+                {error.message ? (
+                  <span className="app-form-label error-span">*</span>
+                ) : (
+                  <></>
+                )}
+              </label>
               <textarea
                 className="app-form-control message"
                 name="message"
