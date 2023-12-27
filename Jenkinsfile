@@ -7,15 +7,12 @@ pipeline {
         bat 'echo hello'
       }
     }
-    stage("linter") {
+    stage('linter') {
       when {
-        anyOf {
-          branch "feature*"
-          branch "bug*"
-        }
+        branch 'feature/*'
       }
       steps {
-        bat 'echo executing linter'
+        bat 'echo executing linter test'
       }
     }
   }
