@@ -14,56 +14,52 @@ import ScrollToTop from "../components/pages/ScrollToTop";
 const Templates = React.lazy(() => import("../components/templates/Templates"));
 
 const router = createBrowserRouter([
-
-    {
-        path:"/",
-        element: <Templates />,
+  {
+    path: "/",
+    element: <Templates />,
+    errorElement: <Error404 />,
+    children: [
+      {
         errorElement: <Error404 />,
-        children:[
-            {
-                errorElement: <Error404 />,
-                children: [
-                    {
-                        index: true,
-                        element: <HomePage />,
-                    },
-                    {
-                        path: "/company",
-                        element: <Company />,
-                    },
-                    {
-                        path: "/services",
-                        element: <Services />,
-                    },
-                    {
-                        path: "/theProof",
-                        element: <TheProof />,
-                    },
-                    {
-                        path: "/careers",
-                        element: <Careers />,
-                    },
-                    {
-                        path: "/blog",
-                        element: <Blog />,
-                        loader: loaderBlog,
-                    },
-                    {
-                        path: "/blog/:id",
-                        element: <Post />,
-                        loader: loaderPost,
-                    },
-                    {
-                        path: "/getAnEstimate",
-                        element: <GetAnEstimate />,
-                    },
-
-                ]
-            }
-        ]
-    }
-
-])
-  
+        children: [
+          {
+            index: true,
+            element: <HomePage />,
+          },
+          {
+            path: "/company",
+            element: <Company />,
+          },
+          {
+            path: "/services",
+            element: <Services />,
+          },
+          {
+            path: "/theProof",
+            element: <TheProof />,
+          },
+          {
+            path: "/careers",
+            element: <Careers />,
+          },
+          // {
+          //     path: "/blog",
+          //     element: <Blog />,
+          //     loader: loaderBlog,
+          // },
+          {
+            path: "/blog/:id",
+            element: <Post />,
+            loader: loaderPost,
+          },
+          {
+            path: "/getAnEstimate",
+            element: <GetAnEstimate />,
+          },
+        ],
+      },
+    ],
+  },
+]);
 
 export default router;

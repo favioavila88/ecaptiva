@@ -31,12 +31,12 @@ const NavBarColumn = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                to="/theproof"
+                to="/blog"
                 className={({ isActive }) => {
                   return isActive ? "sitemap-a" : "navbar-link";
                 }}
               >
-                The Proof
+                Blog{" "}
               </NavLink>
             </li>
             <li className="menu-item">
