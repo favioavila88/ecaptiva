@@ -24,7 +24,7 @@
   font-weight: 500;
 }
 .cp-row-7-line {
-  background-color: #ff3366;
+  background-color: #1d63f5;
   height: 4px;
   width: 150px;
   margin: 0 auto;
@@ -75,4 +75,20 @@
   margin-bottom: 16px;
   margin-top: 16px;
   color: #5d5d5d;
+}
+
+@media only screen and (max-width: 420px) {
+  .cp-row-7-title div {
+    height: 4px;
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .cp-row-7-title h3 {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #000;
+    line-height: 1.1em;
+    font-weight: 400;
+  }
 }

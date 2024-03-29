@@ -20,14 +20,7 @@ const Header = () => {
     <div className="header-1">
       <div className={navbar ? "contain-header active" : "contain-header"}>
         <div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "15% 70% 15%",
-              gridTemplateRows: "100%",
-              gridGap: "10px",
-            }}
-          >
+          <div id="my-header">
             <div></div>
             <div className="content-header">
               <Logo />

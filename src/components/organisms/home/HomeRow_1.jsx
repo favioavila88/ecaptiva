@@ -9,15 +9,7 @@ const HomeRow_1 = () => {
         <video autoPlay loop muted>
           <source src={videoHome}></source>
         </video>
-        <div
-          className="row-1-overlay"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "15% 70% 15%",
-            gridTemplateRows: "100%",
-            gridGap: "10px",
-          }}
-        >
+        <div id="grid-row" className="row-1-overlay">
           <div></div>
           <div>
             <div className="row-1-container-content">

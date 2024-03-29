@@ -7,16 +7,7 @@ import Frame from "../../molecules/header/Frame";
 const ServicesRow_3 = () => {
   return (
     <div>
-      <div
-        key="ServicesRow_31"
-        className="s-row-3"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "15% 70% 15%",
-          gridTemplateRows: "100%",
-          gridGap: "10px",
-        }}
-      >
+      <div id="grid-row" key="ServicesRow_31" className="s-row-3">
         <div></div>
         <div>
           <div key="ServicesRow_32" className="s-row-3-container">
