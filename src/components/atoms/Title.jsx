@@ -2,7 +2,7 @@ import React from "react";
 
 const Title = ({ text, className }) => {
   return (
-    <h3 style={{ minHeight: "50px" }} className={className}>
+    <h3 id="h3-min-height" className={className}>
       {text}
     </h3>
   );
