@@ -74,12 +74,3 @@
   position: relative;
   display: inline-block;
 }
-
-@media only screen and (max-width: 420px) {
-  .row-11 {
-    display: grid;
-    grid-template-columns: 2% 91.5% 2%;
-    grid-template-rows: 100%;
-    grid-gap: 10px;
-  }
-}

@@ -52,9 +52,9 @@ const HomeRow_7 = () => {
               <div className="row-7-title-text">M&M</div>
               <div className="row-7-subtitle-text">Banners Campaign</div>
             </div>
-            {/* <figure>
+            <figure>
               <img src={img4} className="img-4-item" />
-            </figure> */}
+            </figure>
           </div>
         </div>
       </div>
