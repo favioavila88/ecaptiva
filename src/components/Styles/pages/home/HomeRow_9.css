@@ -170,3 +170,9 @@
 .row-9-img-20:hover {
   filter: grayscale(0);
 }
+
+@media only screen and (max-width: 420px) {
+  .row-9-images-container {
+    grid-template-columns: 0;
+  }
+}

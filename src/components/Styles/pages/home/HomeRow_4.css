@@ -148,3 +148,9 @@
 .row-4-img-10:hover {
   filter: grayscale(0);
 }
+
+@media only screen and (max-width: 420px) {
+  .row-4-images-container {
+    grid-template-columns: 0;
+  }
+}

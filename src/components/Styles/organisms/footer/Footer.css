@@ -16,3 +16,9 @@
   float: none;
   padding-bottom: 2px;
 }
+
+@media only screen and (max-width: 420px) {
+  .container-footer {
+    grid-template-columns: none;
+  }
+}
