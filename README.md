@@ -22,8 +22,10 @@ Want to contribute? Great!
 To fix a bug or enhance an existing module, follow these steps:
 
 - Clone repo
+- You should have already installed Node in your machine - https://nodejs.org/en/download
+- Enter into ecaptiva folder (`i.e. cd ecaptiva`)
 - Install all dependencies (`npm install`)
-- Run on local environment (`npm run dev`)
+- Run on local environment (`npm run dev -- --host`)
 - Create a new branch
   to features: (`git checkout -b feature/enhancement_contact_form`)
   to bug: (`git checkout -b bug/contact_form`)
