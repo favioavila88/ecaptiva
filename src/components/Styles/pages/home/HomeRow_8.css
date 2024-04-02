@@ -46,9 +46,3 @@
   margin-top: 16px;
   margin-bottom: 16px;
 }
-
-@media only screen and (max-width: 420px) {
-  .row-8-column {
-    grid-template-columns: 0;
-  }
-}
