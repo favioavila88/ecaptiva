@@ -170,3 +170,26 @@
 .row-9-img-20:hover {
   filter: grayscale(0);
 }
+
+@media only screen and (max-width: 420px) {
+  .row-9-container {
+    padding: 0;
+  }
+
+  .row-9-images-container {
+    width: 370px;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70px 70px;
+  }
+
+  .row-9-img-1 {
+    width: 100%;
+  }
+
+  .row-9-title {
+    font-size: 1em;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+}

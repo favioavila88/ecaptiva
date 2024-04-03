@@ -4,15 +4,7 @@ import Carrousel from "../carrousel/Carrousel";
 const HomeRow_5 = () => {
   return (
     <>
-      <section
-        className="row-5"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "15% 70% 15%",
-          gridTemplateRows: "100%",
-          gridGap: "10px",
-        }}
-      >
+      <section className="row-5">
         <div></div>
         <div>
           <div>
