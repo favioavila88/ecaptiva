@@ -48,7 +48,7 @@ const CarrouselCard = ({ list }) => {
             <div className="st">
               <div className="row-5-paragraph">
                 <h3 className="row-5-text-paragraph"> {list[cindex].text}</h3>
-                <p>
+                <p className="row-5-text-paragraph-author">
                   {list[cindex].whom}
                   <span className="row-5-link">{list[cindex].link}</span>
                 </p>

@@ -7,15 +7,7 @@ const HomeRow_4 = () => {
   return (
     <div className="slideInUp">
       <div className="row-4">
-        <div
-          className="row-4-container"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "15% 70% 15%",
-            gridTemplateRows: "100%",
-            gridGap: "10px",
-          }}
-        >
+        <div className="row-4-container">
           <>
             <div></div>
             <div>
