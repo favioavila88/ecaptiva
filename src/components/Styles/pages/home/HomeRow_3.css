@@ -34,9 +34,11 @@
   height: 50px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .row-3 {
-    height: 20em;
+    height: 21em;
+    background-size: 380px 320px;
+    background-repeat: space;
   }
 
   .row-3-img {
@@ -49,10 +51,10 @@
   }
 
   .row-3-text-container {
-    font-size: 1em;
-    line-height: 1.7em;
-    letter-spacing: -0.3px;
-    color: white;
-    padding: 20px 0;
+    font-size: 1.15em;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    color: dimgray;
+    padding: 0px 0;
   }
 }

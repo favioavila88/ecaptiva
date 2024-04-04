@@ -4,15 +4,7 @@ import "../../Styles/pages/home/HomeRow_10.css";
 const HomeRow_10 = () => {
   return (
     <>
-      <div
-        className="row-10"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "15% 70% 15%",
-          gridTemplateRows: "100%",
-          gridGap: "10px",
-        }}
-      >
+      <div className="row-10">
         <div></div>
         <div>
           <div className="row-10-container">

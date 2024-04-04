@@ -8,19 +8,12 @@ import timezone from "../../../assets/organisms/home/homeRow_8/IconAzul11.png";
 
 const HomeRow_8 = () => {
   return (
-    <div
-      className="row-8"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="row-8">
       <div></div>
       <div>
-        <div className="row-8-conatiner">
-          <h3 className="row-8-title">OUR DIFFERENTIATORS</h3>
+        <h3 className="row-8-title">OUR DIFFERENTIATORS</h3>
+        <div className="row-8-container">
+          <div></div>
           <div className="row-8-column">
             <div className="row-8-item">
               <div className="img-container">

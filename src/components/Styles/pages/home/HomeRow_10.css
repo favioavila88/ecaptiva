@@ -3,6 +3,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
 }
 
 .row-10-container {
@@ -50,4 +54,32 @@
   color: #fff;
   background: #1d62f5;
   text-shadow: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .row-10 {
+    background-size: 380px 270px;
+    grid-template-columns: 15% 70% 15%;
+    grid-gap: 0px;
+    background-repeat: repeat;
+    margin-top: 20px;
+  }
+
+  .row-10-container {
+    padding: 20px 0px;
+  }
+
+  .row-10-paragraph {
+    font-size: 1em;
+    letter-spacing: 0.5px;
+  }
+
+  .row-10-subtitle {
+    font-size: 1.5em;
+  }
+
+  .row-10-button {
+    font-size: 0.75em;
+    padding: 10px 20px 10px 20px;
+  }
 }

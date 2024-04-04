@@ -68,7 +68,7 @@
   min-height: 50px;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 430px) {
   .s-row-3-container {
     padding: 15px 0px 15px 0px;
     max-width: 100%;
