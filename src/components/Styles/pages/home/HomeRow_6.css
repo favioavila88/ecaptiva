@@ -43,3 +43,27 @@
   background: #1d63f5;
   text-shadow: none;
 }
+
+@media only screen and (max-width: 430px) {
+  .row-6 {
+    background-size: 2500px 720px;
+    background-repeat: initial;
+  }
+
+  .row-6-container {
+    padding: 25px 5px;
+  }
+
+  .row-6-title {
+    font-size: 1.5em;
+    line-height: 1.1em;
+    margin-bottom: 35px;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .row-6-button {
+    font-size: 0.75em;
+    padding: 10px 20px 10px 20px;
+  }
+}
