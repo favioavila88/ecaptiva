@@ -5,6 +5,10 @@
 
 .footer {
   background-color: #111013;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
 }
 
 .container-footer {
@@ -15,4 +19,19 @@
   width: 100%;
   float: none;
   padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 430px) {
+  .footer {
+    background-color: #111013;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-gap: 0px;
+  }
+
+  .container-footer {
+    display: grid;
+    grid-template-columns: 100%;
+    max-width: 100%;
+  }
 }

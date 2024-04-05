@@ -73,3 +73,21 @@
 .social-red {
   color: #fff;
 }
+
+@media only screen and (max-width: 430px) {
+  .type-contact-text {
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+
+  .reference-column-container {
+    float: left;
+    margin: 40px 0 0 0;
+  }
+
+  .number-tel-text {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+  }
+}
