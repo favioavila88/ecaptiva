@@ -100,12 +100,12 @@ div ul li {
 .dropdown_menu {
   display: block;
   position: absolute;
-  left: 12.5em;
-  top: 60px;
+  left: 1em;
+  top: 80px;
   width: 200px;
-  background: rgba(255, 255, 255, 0.1);
+  background: black;
   backdrop-filter: blur(15px);
-  border-radius: 10px;
+  border-radius: 0px;
   overflow: hidden;
   height: 0;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -146,7 +146,7 @@ div ul li {
   }
 }
 
-@media only screen and (min-width: 420px) {
+@media only screen and (min-width: 431px) {
   .action_btn {
     display: none;
     margin-top: 50px;
