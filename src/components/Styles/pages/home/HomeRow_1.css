@@ -107,4 +107,8 @@
     font-size: 0.75em;
     padding: 5px 10px 5px 10px;
   }
+
+  .row-1-container {
+    margin-top: 70px;
+  }
 }

@@ -1,5 +1,5 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 import "../../Styles/molecules/header/Navbar.css";
 import MenuList from "../../../constants/MenuList";
 
@@ -32,12 +32,18 @@ const Navbar = () => {
             );
           })}
         </ul>
-        <a href="#" className="action_btn">
-          ...
-        </a>
-        <div className="toggle-btn" onClick={openMenu()}>
-          <i className="fa-solid fa-bars"></i>
-        </div>
+        <button
+          type="submit"
+          className="toggle-btn"
+          onClick={() => openMenu()}
+          style={{
+            backgroundColor: "black",
+            border: "none",
+            marginTop: "0px",
+          }}
+        >
+          <RxHamburgerMenu />
+        </button>
 
         <div className="dropdown_menu">
           {MenuList.map((item) => {

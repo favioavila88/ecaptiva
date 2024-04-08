@@ -60,10 +60,8 @@
 
 @media only screen and (max-width: 430px) {
   #my-header {
-    display: grid;
-    grid-template-columns: 0.5% 91.5% 0.5%;
-    grid-template-rows: 100%;
-    grid-gap: 10px;
+    grid-template-columns: 0.5% 90% 0.5%;
+    height: 80px;
   }
 
   #grid-row {
@@ -71,5 +69,16 @@
     grid-template-columns: 2% 91.5% 2%;
     grid-template-rows: 100%;
     grid-gap: 10px;
+  }
+
+  .content-header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+  }
+
+  .header-1 {
+    height: 70px;
   }
 }
