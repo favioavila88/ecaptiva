@@ -5,13 +5,16 @@ import chat from "../../../assets/organisms/home/homeRow_8/IconAzul8.png";
 import team from "../../../assets/organisms/home/homeRow_8/IconAzul10.png";
 import recruiting from "../../../assets/organisms/home/homeRow_8/IconAzul9.png";
 import timezone from "../../../assets/organisms/home/homeRow_8/IconAzul11.png";
+import Frame from "../../molecules/header/Frame";
 
 const HomeRow_8 = () => {
   return (
     <div className="row-8">
       <div></div>
       <div>
-        <h3 className="row-8-title">OUR DIFFERENTIATORS</h3>
+        <div className="cp-row-7-title" style={{ marginTop: "30px" }}>
+          <Frame text="OUR DIFFERENTIATORS" lineClass="cp-row-7-line" />
+        </div>
         <div className="row-8-container">
           <div></div>
           <div className="row-8-column">

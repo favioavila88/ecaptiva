@@ -103,7 +103,7 @@ div ul li {
   left: 1em;
   top: 80px;
   width: 200px;
-  background: black;
+  background: #111013;
   backdrop-filter: blur(15px);
   border-radius: 0px;
   overflow: hidden;

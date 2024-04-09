@@ -19,8 +19,8 @@ const HomeRow_1 = () => {
                 </h1>
                 <h2 className="row-1-subtitle">We have them.</h2>
                 <span>
-                  <NavLink to="/company">
-                    <a className="row-1-botton">FIND OUT MORE</a>
+                  <NavLink to="/company" className="row-1-botton">
+                    FIND OUT MORE
                   </NavLink>
                 </span>
               </div>
