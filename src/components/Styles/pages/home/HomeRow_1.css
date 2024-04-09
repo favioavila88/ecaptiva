@@ -111,4 +111,8 @@
   .row-1-container {
     margin-top: 70px;
   }
+
+  .row-1-container-content {
+    height: 100%;
+  }
 }

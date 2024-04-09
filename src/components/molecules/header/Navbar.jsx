@@ -29,7 +29,7 @@ const Navbar = () => {
     }
 
     const dropDownMenu = document.querySelector(".dropdown_menu");
-    if (window.location.pathname != pathName) {
+    if (dropDownMenu && window.location.pathname != pathName) {
       dropDownMenu.classList.remove("open");
       setDisplayCross1(false);
     }
@@ -68,6 +68,7 @@ const Navbar = () => {
                 backgroundColor: "transparent",
                 border: "none",
                 marginTop: "0px",
+                paddingLeft: "18px",
               }}
             >
               {displayCross1 ? (

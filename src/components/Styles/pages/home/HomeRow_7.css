@@ -91,6 +91,7 @@ figure {
 
   .row-7-subtitle-text {
     font-size: 0.75em;
+    padding-bottom: 13px;
   }
 
   .row-7 figure img {
@@ -102,7 +103,7 @@ figure {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 210px;
   }
 
   .row-7-column {
