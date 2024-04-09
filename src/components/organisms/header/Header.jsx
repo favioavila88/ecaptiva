@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "../../molecules/header/Logo";
 import Navbar from "../../molecules/header/Navbar";
 import "../../Styles/organisms/header/Header.css";
@@ -6,6 +6,13 @@ import "../../Styles/organisms/header/Header.css";
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
   const [isResponsive, setIsResponsive] = useState(false);
+
+  useEffect(() => {
+    if (window.innerWidth <= 430) {
+      setIsResponsive(true);
+      setNavbar(true);
+    }
+  });
 
   const changeBackground = () => {
     if (window.scrollY > 80 || isResponsive == true) {

@@ -2,6 +2,7 @@ import "../../Styles/pages/home/HomeRow_4.css";
 import "../../Styles//organisms/accordion/Accordion.css";
 import BrandsTrustUs from "../../../constants/BrandsTrustUs";
 import Accordion from "../accordion/Accordion";
+import Frame from "../../molecules/header/Frame";
 
 const HomeRow_4 = () => {
   return (
@@ -11,8 +12,8 @@ const HomeRow_4 = () => {
           <>
             <div></div>
             <div>
-              <div className="row-4-title-text">
-                <h3 className="row-4-title">BRANDS THAT TRUST US</h3>
+              <div key="ServicesRow_33" className="cp-row-7-title">
+                <Frame text="BRANDS THAT TRUST US" lineClass="cp-row-7-line" />
               </div>
               <div className="row-4-images-container">
                 {BrandsTrustUs.map((brand) => {
