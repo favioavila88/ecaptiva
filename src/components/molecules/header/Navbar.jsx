@@ -1,15 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { RxDropdownMenu, RxHamburgerMenu } from "react-icons/rx";
+import { RxCross1 } from "react-icons/rx";
 import "../../Styles/molecules/header/Navbar.css";
 import MenuList from "../../../constants/MenuList";
 
 const Navbar = () => {
   const [displayHamburger, setDisplayHamburger] = useState(false);
+  const [displayCross1, setDisplayCross1] = useState(false);
+  const [pathName, setPathName] = useState("/");
 
   const openMenu = () => {
     const dropDownMenu = document.querySelector(".dropdown_menu");
-    if (dropDownMenu) dropDownMenu.classList.toggle("open");
+    if (dropDownMenu && dropDownMenu.classList[1] == undefined) {
+      dropDownMenu.classList.toggle("open");
+      setDisplayCross1(true);
+      setPathName(window.location.pathname);
+    } else if (dropDownMenu && dropDownMenu.classList[1] == "open") {
+      dropDownMenu.classList.remove("open");
+      setDisplayCross1(false);
+      setPathName(window.location.pathname);
+    }
   };
 
   useEffect(() => {
@@ -18,7 +29,10 @@ const Navbar = () => {
     }
 
     const dropDownMenu = document.querySelector(".dropdown_menu");
-    if (dropDownMenu) dropDownMenu.classList.remove("open");
+    if (window.location.pathname != pathName) {
+      dropDownMenu.classList.remove("open");
+      setDisplayCross1(false);
+    }
   });
 
   return (
@@ -56,7 +70,15 @@ const Navbar = () => {
                 marginTop: "0px",
               }}
             >
-              <RxHamburgerMenu />
+              {displayCross1 ? (
+                <>
+                  <RxCross1 />
+                </>
+              ) : (
+                <>
+                  <RxHamburgerMenu />
+                </>
+              )}
             </button>
 
             <div className="dropdown_menu">
