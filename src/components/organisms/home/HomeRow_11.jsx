@@ -11,13 +11,17 @@ const HomeRow_11 = () => {
         <figure>
           <img src={bs11a1} />
         </figure>
-        <h2 className="row-11-title">
-          Finding Tech Talent: Why is it a challenge and how to get around it
-        </h2>
-        <p className="row-11-description">
-          The increase in the cost of hiring and retaining qualified
-          softwareengineers is something that has not gone unnoticed,...
-        </p>
+        <div>
+          <h2 className="row-11-title">
+            Finding Tech Talent: Why is it a challenge and how to get around it
+          </h2>
+        </div>
+        <div>
+          <p className="row-11-description">
+            The increase in the cost of hiring and retaining qualified
+            softwareengineers is something that has not gone unnoticed,...
+          </p>
+        </div>
         <div className="row-11-text">READ MORE</div>
       </div>
       <div className="row-11-content-item">

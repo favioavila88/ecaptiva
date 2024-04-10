@@ -71,9 +71,12 @@
     grid-template-columns: 2% 91.5% 2%;
     grid-template-rows: 100%;
     grid-gap: 10px;
+    background: transparent;
   }
 
   .content-header {
+    margin-top: 15px;
+    position: absolute;
     display: grid;
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 100%;
@@ -85,6 +88,6 @@
   }
 
   .logo {
-    margin-left: 16px;
+    margin-left: 10px;
   }
 }

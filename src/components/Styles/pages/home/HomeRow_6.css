@@ -46,8 +46,7 @@
 
 @media only screen and (max-width: 430px) {
   .row-6 {
-    background-size: 2500px 720px;
-    background-repeat: initial;
+    background-size: 100% 100%;
   }
 
   .row-6-container {

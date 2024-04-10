@@ -9,8 +9,6 @@ const HomeRow_2 = () => {
   const changeBackground = () => {
     if (window.scrollY > 600) {
       setNumber(true);
-    } else {
-      setNumber(false);
     }
   };
 
@@ -39,15 +37,7 @@ const HomeRow_2 = () => {
     );
   }
   return (
-    <div
-      className="row-2"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="row-2">
       <div></div>
       <div>
         <div className="row-2-container">
