@@ -100,8 +100,8 @@ div ul li {
 .dropdown_menu {
   display: block;
   position: absolute;
-  left: 1em;
-  top: 80px;
+  left: 0;
+  top: 65px;
   width: 200px;
   background: #111013;
   backdrop-filter: blur(15px);
