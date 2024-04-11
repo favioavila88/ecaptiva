@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.row-5 {
+.clients-say {
   background-color: #fff;
   align-items: center;
   padding: 20px;
@@ -138,7 +138,7 @@
 }
 
 @media only screen and (max-width: 430px) {
-  .row-5 {
+  .clients-say {
     grid-template-columns: 15% 70% 15%;
     grid-gap: 0px;
     padding: 0 0 20px 0;

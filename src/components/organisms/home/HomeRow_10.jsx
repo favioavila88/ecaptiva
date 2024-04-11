@@ -4,13 +4,13 @@ import "../../Styles/pages/home/HomeRow_10.css";
 const HomeRow_10 = () => {
   return (
     <>
-      <div className="row-10">
+      <div className="reach-us">
         <div></div>
         <div>
-          <div className="row-10-container">
-            <p className="row-10-paragraph">HOW DO YOU REACH US?</p>
-            <h2 className="row-10-subtitle">RIGHT HERE</h2>
-            <div className="row-10-button">
+          <div className="reach-us-container">
+            <p className="reach-us-paragraph">HOW DO YOU REACH US?</p>
+            <h2 className="reach-us-subtitle">RIGHT HERE</h2>
+            <div className="reach-us-button">
               <NavLink to="/company">Find out more</NavLink>
             </div>
           </div>

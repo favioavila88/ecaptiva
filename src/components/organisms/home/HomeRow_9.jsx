@@ -9,10 +9,10 @@ import Frame from "../../molecules/header/Frame";
 const HomeRow_9 = () => {
   return (
     <>
-      <div className="row-9">
-        <div className="row-9-container">
-          <div className="cp-row-7-title" style={{ marginTop: "30px" }}>
-            <Frame text="OUR TECH STACK" lineClass="cp-row-7-line" />
+      <div className="our-tech-stack">
+        <div className="our-tech-stack-row">
+          <div className="rows-title" style={{ marginTop: "30px" }}>
+            <Frame text="OUR TECH STACK" lineClass="rows-title-line" />
           </div>
           <Accordion items={TechStacks} limit={10}></Accordion>
         </div>

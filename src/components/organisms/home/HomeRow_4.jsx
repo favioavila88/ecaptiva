@@ -7,19 +7,22 @@ import Frame from "../../molecules/header/Frame";
 const HomeRow_4 = () => {
   return (
     <div className="slideInUp">
-      <div className="row-4">
-        <div className="row-4-container">
+      <div className="brands-trust-us">
+        <div className="brands-trust-us-container">
           <>
             <div></div>
             <div>
-              <div key="ServicesRow_33" className="cp-row-7-title">
-                <Frame text="BRANDS THAT TRUST US" lineClass="cp-row-7-line" />
+              <div key="ServicesRow_33" className="rows-title">
+                <Frame
+                  text="BRANDS THAT TRUST US"
+                  lineClass="rows-title-line"
+                />
               </div>
-              <div className="row-4-images-container">
+              <div className="brands-trust-us-items-container">
                 {BrandsTrustUs.map((brand) => {
                   return (
                     <div key={brand.id}>
-                      <img className="row-4-img-1" src={brand.src} />
+                      <img className="brands-trust-us-item" src={brand.src} />
                     </div>
                   );
                 })}

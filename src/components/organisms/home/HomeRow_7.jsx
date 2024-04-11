@@ -7,42 +7,46 @@ import img4 from "../../../assets/organisms/home/homeRow_7/24-mym-4-500x360.png"
 
 const HomeRow_7 = () => {
   return (
-    <div className="row-7">
+    <div className="few-examples">
       <div></div>
       <div>
-        <div className="row-7-title">A FEW EXAMPLES</div>
-        <div className="row-7-container-column">
-          <div className="row-7-column">
-            <div className="row-7-content-text">
-              <div className="row-7-title-text">Crackle</div>
-              <div className="row-7-subtitle-text">Web App</div>
+        <div className="few-examples-title">A FEW EXAMPLES</div>
+        <div className="few-examples-container">
+          <div className="few-example-item">
+            <div className="few-example-text">
+              <div className="few-example-item-title">Crackle</div>
+              <div className="few-example-item-subtitle">Web App</div>
             </div>
             <figure>
               <img src={img1} className="img-1-item" />
             </figure>
           </div>
-          <div className="row-7-column">
-            <div className="row-7-content-text">
-              <div className="row-7-title-text">Oasis Collections</div>
-              <div className="row-7-subtitle-text">Ecommerce / Web Site</div>
+          <div className="few-example-item">
+            <div className="few-example-text">
+              <div className="few-example-item-title">Oasis Collections</div>
+              <div className="few-example-item-subtitle">
+                Ecommerce / Web Site
+              </div>
             </div>
             <figure>
               <img src={img2} className="img-2-item" />
             </figure>
           </div>
-          <div className="row-7-column">
-            <div className="row-7-content-text">
-              <div className="row-7-title-text">Trinity Wall Street Church</div>
-              <div className="row-7-subtitle-text">Web Site</div>
+          <div className="few-example-item">
+            <div className="few-example-text">
+              <div className="few-example-item-title">
+                Trinity Wall Street Church
+              </div>
+              <div className="few-example-item-subtitle">Web Site</div>
             </div>
             <figure>
               <img src={img3} className="img-3-item" />
             </figure>
           </div>
-          <div className="row-7-column">
-            <div className="row-7-content-text">
-              <div className="row-7-title-text">M&M</div>
-              <div className="row-7-subtitle-text">Banners Campaign</div>
+          <div className="few-example-item">
+            <div className="few-example-text">
+              <div className="few-example-item-title">M&M</div>
+              <div className="few-example-item-subtitle">Banners Campaign</div>
             </div>
             <figure>
               <img src={img4} className="img-4-item" />

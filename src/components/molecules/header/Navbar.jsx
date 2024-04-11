@@ -11,6 +11,7 @@ const Navbar = () => {
   const [pathName, setPathName] = useState("/");
 
   const openMenu = () => {
+    console.log("openMenu");
     const dropDownMenu = document.querySelector(".dropdown_menu");
     if (dropDownMenu && dropDownMenu.classList[1] == undefined) {
       dropDownMenu.classList.toggle("open");
@@ -34,6 +35,34 @@ const Navbar = () => {
       setDisplayCross1(false);
     }
   });
+
+  useEffect(() => {
+    const handleClick = (event) => {
+      console.log("opened:", event.target.id);
+      if (event.target.id == "") {
+        const dropDownMenu = document.querySelector(".dropdown_menu");
+        if (dropDownMenu && dropDownMenu.classList[1] == "open") {
+          dropDownMenu.classList.remove("open");
+          setDisplayCross1(false);
+        }
+      }
+    };
+    window.addEventListener("click", handleClick);
+  });
+
+  // window.addEventListener("click", function (e) {
+  //   if (document.getElementById("dp_navbar").contains(e.target)) {
+  //     console.log("e.target: " + e.target);
+  //   } else {
+  //     console.log("e.target else: " + e.target);
+  //     const dropDownMenu = document.querySelector(".dropdown_menu");
+  //     console.log(displayCross1);
+  //     if (dropDownMenu && !displayCross1) {
+  //       dropDownMenu.classList.remove("open");
+  //       //   setDisplayCross1(false);
+  //     }
+  //   }
+  // });
 
   return (
     <div>
@@ -59,8 +88,9 @@ const Navbar = () => {
           })}
         </ul>
         {displayHamburger ? (
-          <>
+          <div id="collapse_menu">
             <button
+              id="btn_menu"
               type="submit"
               className="toggle-btn"
               onClick={() => openMenu()}
@@ -69,23 +99,25 @@ const Navbar = () => {
                 border: "none",
                 marginTop: "0px",
                 paddingLeft: "18px",
+                fontSize: "25px",
+                zIndex: "1000",
               }}
             >
               {displayCross1 ? (
-                <>
-                  <RxCross1 />
-                </>
+                <div id="rx_cross_1">
+                  <RxCross1 id="cross" style={{ zIndex: "-5000" }} />
+                </div>
               ) : (
-                <>
-                  <RxHamburgerMenu />
-                </>
+                <div id="hamburger">
+                  <RxHamburgerMenu id="hamb" />
+                </div>
               )}
             </button>
 
-            <div className="dropdown_menu">
+            <div id="dd_menu_captiva" className="dropdown_menu">
               {MenuList.map((item) => {
                 return (
-                  <li key={item.id}>
+                  <li id={item.id} key={item.id}>
                     <NavLink
                       to={item.path}
                       className={({ isActive }) => {
@@ -102,7 +134,7 @@ const Navbar = () => {
                 );
               })}
             </div>
-          </>
+          </div>
         ) : (
           <></>
         )}
