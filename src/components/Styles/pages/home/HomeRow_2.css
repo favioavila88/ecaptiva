@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.row-2 {
+.trajectory-row {
   background-color: #dde8ff;
   display: grid;
   grid-template-columns: 15% 70% 15%;
@@ -10,7 +10,7 @@
   grid-gap: 10px;
 }
 
-.row-2-container {
+.trajectory-container {
   padding: 70px 0px 50px;
   max-width: 100%;
   width: 100%;
@@ -18,19 +18,19 @@
   visibility: visible;
 }
 
-.row-2-text-container {
+.trajectory-items-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.row-2-item {
+.trajectory-item {
   width: 20%;
   text-align: center;
   padding: 0 20px;
 }
 
-.row-2-item h2 {
+.trajectory-item h2 {
   font-size: 3em;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -39,7 +39,7 @@
   font-weight: 600;
 }
 
-.row-2-item h4 {
+.trajectory-item h4 {
   font-size: 13px;
   font-weight: 500;
   color: #282e2a;
@@ -49,23 +49,23 @@
 }
 
 @media only screen and (max-width: 430px) {
-  .row-2 {
+  .trajectory-row {
     display: grid;
     grid-template-columns: 5% 90% 5%;
     grid-gap: 0px;
   }
-  .row-2-container {
+  .trajectory-container {
     padding: 50px 0px 50px;
   }
 
-  .row-2-text-container {
+  .trajectory-items-container {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     grid-gap: 0px;
   }
 
-  .row-2-item {
+  .trajectory-item {
     width: 75%;
     text-align: center;
     padding: 0 20px;

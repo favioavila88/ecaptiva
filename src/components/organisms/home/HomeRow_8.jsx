@@ -9,61 +9,65 @@ import Frame from "../../molecules/header/Frame";
 
 const HomeRow_8 = () => {
   return (
-    <div className="row-8">
+    <div className="our-differentiators">
       <div></div>
       <div>
-        <div className="cp-row-7-title" style={{ marginTop: "30px" }}>
-          <Frame text="OUR DIFFERENTIATORS" lineClass="cp-row-7-line" />
+        <div className="rows-title" style={{ marginTop: "30px" }}>
+          <Frame text="OUR DIFFERENTIATORS" lineClass="rows-title-line" />
         </div>
-        <div className="row-8-container">
+        <div className="our-differentiators-container">
           <div></div>
-          <div className="row-8-column">
-            <div className="row-8-item">
+          <div className="our-differentiators-items-container">
+            <div className="our-differentiators-item">
               <div className="img-container">
                 <img src={usa} className="row-8-imag-1" />
               </div>
-              <h1 className="row-8-colum-title">Global</h1>
-              <p className="row-8-colum-paragraph">
+              <h1 className="our-differentiators-item-title">Global</h1>
+              <p className="our-differentiators-item-paragraph">
                 Our company serves on a global scale, operating in over 25
                 different countries.
               </p>
             </div>
-            <div className="row-8-item">
+            <div className="our-differentiators-item">
               <div className="img-container">
                 <img src={chat} className="row-8-imag-2" />
               </div>
-              <h1 className="row-8-colum-title">Different industries</h1>
-              <p className="row-8-colum-paragraph">
+              <h1 className="our-differentiators-item-title">
+                Different industries
+              </h1>
+              <p className="our-differentiators-item-paragraph">
                 Our professionals have knowledge and experience in several areas
                 of the industry.
               </p>
             </div>
-            <div className="row-8-item">
+            <div className="our-differentiators-item">
               <div className="img-container">
                 <img src={team} className="row-8-imag-3" />
               </div>
-              <h1 className="row-8-colum-title">Best talents</h1>
-              <p className="row-8-colum-paragraph">
+              <h1 className="our-differentiators-item-title">Best talents</h1>
+              <p className="our-differentiators-item-paragraph">
                 Captiva is in a constant search for the best professionals
                 available in the market.
               </p>
             </div>
-            <div className="row-8-item">
+            <div className="our-differentiators-item">
               <div className="img-container">
                 <img src={recruiting} className="row-8-imag-4" />
               </div>
-              <h1 className="row-8-colum-title">Remote first</h1>
-              <p className="row-8-colum-paragraph">
+              <h1 className="our-differentiators-item-title">Remote first</h1>
+              <p className="our-differentiators-item-paragraph">
                 At Captiva, we give preference to tasks carried out remotely,
                 which guarantees a better quality of life for our employees.
               </p>
             </div>
-            <div className="row-8-item">
+            <div className="our-differentiators-item">
               <div className="img-container">
                 <img src={timezone} className="row-8-imag-5" />
               </div>
-              <h1 className="row-8-colum-title">Worldwide projects</h1>
-              <p className="row-8-colum-paragraph">
+              <h1 className="our-differentiators-item-title">
+                Worldwide projects
+              </h1>
+              <p className="our-differentiators-item-paragraph">
                 Here we carry out grandiose worldwide projects, which count on
                 the work of development professionals spread all over the
                 planet.

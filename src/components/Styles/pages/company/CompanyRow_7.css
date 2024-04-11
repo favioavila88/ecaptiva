@@ -10,20 +10,20 @@
   visibility: visible;
 }
 
-.cp-row-7-title {
+.rows-title {
   text-align: center;
   margin-bottom: 70px;
   visibility: visible;
 }
 
-.cp-row-7-title h3 {
+.rows-title h3 {
   font-size: 32px;
   margin-bottom: 15px;
   color: #000;
   line-height: 1.1em;
   font-weight: 500;
 }
-.cp-row-7-line {
+.rows-title-line {
   background-color: #1d63f5;
   height: 4px;
   width: 150px;
@@ -78,13 +78,13 @@
 }
 
 @media only screen and (max-width: 430px) {
-  .cp-row-7-title div {
+  .rows-title div {
     height: 4px;
     width: 150px;
     margin: 0 auto;
   }
 
-  .cp-row-7-title h3 {
+  .rows-title h3 {
     font-size: 1em;
     margin-bottom: 15px;
     color: #000;

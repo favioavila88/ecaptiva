@@ -11,13 +11,13 @@ const ServicesRow_3 = () => {
         <div></div>
         <div>
           <div key="ServicesRow_32" className="s-row-3-container">
-            <div key="ServicesRow_33" className="cp-row-7-title">
-              <Frame key="abc834" text="OUR LABS" lineClass="cp-row-7-line" />
+            <div key="ServicesRow_33" className="rows-title">
+              <Frame key="abc834" text="OUR LABS" lineClass="rows-title-line" />
             </div>
-            <div className="s-row-3-content">
+            <div className="our-labs-content">
               {Labs.map((lab) => {
                 return (
-                  <div key={lab.id} className="s-row-3-item">
+                  <div key={lab.id} className="our-labs-item">
                     <CompanyCard
                       image={lab.image}
                       title={lab.title}

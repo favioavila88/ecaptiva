@@ -37,24 +37,24 @@ const HomeRow_2 = () => {
     );
   }
   return (
-    <div className="row-2">
+    <div className="trajectory-row">
       <div></div>
       <div>
-        <div className="row-2-container">
-          <div className="row-2-text-container">
-            <div className="row-2-item">
+        <div className="trajectory-container">
+          <div className="trajectory-items-container">
+            <div className="trajectory-item">
               <h2> {number ? <Number n={5}></Number> : "0"}</h2>
               <h4>YEARS IN BUSINESS</h4>
             </div>
-            <div className="row-2-item">
+            <div className="trajectory-item">
               <h2>{number ? <Number n={20} s="+"></Number> : "0+"}</h2>
               <h4>COMPLETED PROJECTS</h4>
             </div>
-            <div className="row-2-item">
+            <div className="trajectory-item">
               <h2>{number ? <Number n={4} s="+"></Number> : "0+"}</h2>
               <h4>YEARS WITH ISO 9001 CERTIFIED PROCESSES</h4>
             </div>
-            <div className="row-2-item">
+            <div className="trajectory-item">
               <h2>{number ? <Number n={100} s="%"></Number> : "0%"}</h2>
               <h4>U.S. CLIENTS</h4>
             </div>

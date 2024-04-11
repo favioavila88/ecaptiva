@@ -4,7 +4,7 @@ import "../../Styles/pages/home/HomeRow_6.css";
 const HomeRow_6 = () => {
   return (
     <div
-      className="row-6"
+      className="teams-results"
       style={{
         display: "grid",
         gridTemplateColumns: "15% 70% 15%",

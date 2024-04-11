@@ -22,8 +22,8 @@ const CompanyRow_7 = () => {
         <div className="cp-row-7-container">
           <div></div>
           <div>
-            <div className="cp-row-7-title">
-              <Frame text="HOW TO WORK WITH US" lineClass="cp-row-7-line" />
+            <div className="rows-title">
+              <Frame text="HOW TO WORK WITH US" lineClass="rows-title-line" />
             </div>
             <div className="cp-row-7-content">
               {values.map((v) => {

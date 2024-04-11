@@ -1,4 +1,4 @@
-.row-8-container {
+.our-differentiators-container {
   display: grid;
   padding: 70px 0px;
   width: 100%;
@@ -18,12 +18,12 @@
   min-height: 40px;
 }
 
-.row-8-column {
+.our-differentiators-items-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
 }
 
-.row-8-item {
+.our-differentiators-item {
   text-align: center;
   padding: 15px;
 }
@@ -32,17 +32,17 @@
   min-height: 110px;
 }
 
-.row-8-item img {
+.our-differentiators-item img {
   width: 80px;
   margin-bottom: 15px;
 }
 
-.row-8-colum-title {
+.our-differentiators-item-title {
   font-size: 16px;
   font-weight: 400;
 }
 
-.row-8-colum-paragraph {
+.our-differentiators-item-paragraph {
   font-size: 15px;
   color: #818181;
   line-height: 23px;
@@ -51,7 +51,7 @@
 }
 
 @media only screen and (max-width: 430px) {
-  .row-8-container {
+  .our-differentiators-container {
     max-width: 100%;
     padding: 0;
     float: none;
@@ -69,15 +69,15 @@
     margin: 0;
   }
 
-  .row-8-column {
+  .our-differentiators-items-container {
     width: 100%;
     display: grid;
     grid-template-columns: 48% 48%;
   }
 
-  .row-8-colum-paragraph {
+  .our-differentiators-item-paragraph {
     font-size: 0.75em;
     line-height: 15px;
-    text-align: justify;
+    text-align: center;
   }
 }

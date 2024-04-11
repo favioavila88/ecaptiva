@@ -1,4 +1,4 @@
-.row-7 {
+.few-examples {
   background-color: #111013;
   padding-top: 70px;
   display: grid;
@@ -7,7 +7,7 @@
   grid-gap: 10px;
 }
 
-.row-7-title {
+.few-examples-title {
   line-height: 1.1em;
   font-size: 30px;
   color: #fff;
@@ -18,7 +18,7 @@
   visibility: visible;
 }
 
-.row-7-container-column {
+.few-examples-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -44,7 +44,7 @@ figure {
   transform: scale(1.3);
 }
 
-.row-7-title-text {
+.few-example-item-title {
   color: #fff;
   font-size: 26px;
   line-height: 32px;
@@ -53,7 +53,7 @@ figure {
   margin-bottom: 5px;
 }
 
-.row-7-subtitle-text {
+.few-example-item-subtitle {
   font-size: 12px;
   line-height: 1.3em;
   letter-spacing: 3px;
@@ -64,7 +64,7 @@ figure {
 }
 
 @media only screen and (max-width: 430px) {
-  .row-7 {
+  .few-examples {
     background-color: #111013;
     padding-top: 25px;
     display: grid;
@@ -73,26 +73,27 @@ figure {
     grid-gap: 0px;
   }
 
-  .row-7-container-column {
+  .few-examples-container {
     width: 100%;
     display: grid;
     grid-template-columns: 100%;
   }
 
-  .row-7-title {
+  .few-examples-title {
+    padding-top: 20px;
     font-size: 1.5em;
   }
 
-  .row-7-title-text {
+  .few-example-item-title {
     font-size: 1.25em;
   }
 
-  .row-7-subtitle-text {
+  .few-example-item-subtitle {
     font-size: 0.75em;
     padding-bottom: 13px;
   }
 
-  .row-7 figure img {
+  .few-examples figure img {
     width: 100%;
   }
 
@@ -104,7 +105,7 @@ figure {
     height: 210px;
   }
 
-  .row-7-column {
+  .few-example-item {
     padding: 0 0 20px 0;
   }
 }

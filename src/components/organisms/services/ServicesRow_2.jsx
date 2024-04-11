@@ -20,7 +20,7 @@ const ServicesRow_2 = () => {
         <div></div>
         <div>
           <div className="s-row-2-container">
-            <div className="cp-row-7-title">
+            <div className="rows-title">
               <Frame text="BUSINESS MODELS" lineClass="s-row-2-line" />
             </div>
             <div className="s-row-2-content">

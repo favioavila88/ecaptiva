@@ -1,4 +1,4 @@
-.row-10 {
+.reach-us {
   background-image: url("../../../../assets/organisms/home/homeRow_10/home-03-3.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9,13 +9,13 @@
   grid-gap: 10px;
 }
 
-.row-10-container {
+.reach-us-container {
   padding: 250px 0px;
   max-width: 100%;
   width: 100%;
 }
 
-.row-10-paragraph {
+.reach-us-paragraph {
   color: #fff;
   font-size: 40px;
   line-height: 1.2em;
@@ -23,7 +23,7 @@
   letter-spacing: -2px;
 }
 
-.row-10-subtitle {
+.reach-us-subtitle {
   color: #fff;
   font-size: 80px;
   line-height: 1.1em;
@@ -31,7 +31,7 @@
   margin-bottom: 35px;
 }
 
-.row-10-button {
+.reach-us-button {
   text-transform: uppercase;
   font-size: 15px;
   border-radius: 5px;
@@ -46,38 +46,38 @@
   display: inline-block;
 }
 
-.row-10-button a {
+.reach-us-button a {
   color: #fff;
 }
 
-.row-10-button:hover {
+.reach-us-button:hover {
   color: #fff;
   background: #1d62f5;
   text-shadow: none;
 }
 
 @media only screen and (max-width: 430px) {
-  .row-10 {
+  .reach-us {
     background-size: 100% 100%;
     grid-template-columns: 15% 70% 15%;
     grid-gap: 0px;
     margin-top: 20px;
   }
 
-  .row-10-container {
+  .reach-us-container {
     padding: 20px 0px;
   }
 
-  .row-10-paragraph {
+  .reach-us-paragraph {
     font-size: 1em;
     letter-spacing: 0.5px;
   }
 
-  .row-10-subtitle {
+  .reach-us-subtitle {
     font-size: 1.5em;
   }
 
-  .row-10-button {
+  .reach-us-button {
     font-size: 0.75em;
     padding: 10px 20px 10px 20px;
   }
