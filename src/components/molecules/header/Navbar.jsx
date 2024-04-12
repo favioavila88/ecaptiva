@@ -32,7 +32,10 @@ const Navbar = () => {
     const dropDownMenu = document.querySelector(".dropdown_menu");
     if (dropDownMenu && window.location.pathname != pathName) {
       dropDownMenu.classList.remove("open");
-      setDisplayCross1(false);
+
+      setTimeout(() => {
+        setDisplayCross1(false);
+      }, 300);
     }
   });
 
@@ -49,20 +52,6 @@ const Navbar = () => {
     };
     window.addEventListener("click", handleClick);
   });
-
-  // window.addEventListener("click", function (e) {
-  //   if (document.getElementById("dp_navbar").contains(e.target)) {
-  //     console.log("e.target: " + e.target);
-  //   } else {
-  //     console.log("e.target else: " + e.target);
-  //     const dropDownMenu = document.querySelector(".dropdown_menu");
-  //     console.log(displayCross1);
-  //     if (dropDownMenu && !displayCross1) {
-  //       dropDownMenu.classList.remove("open");
-  //       //   setDisplayCross1(false);
-  //     }
-  //   }
-  // });
 
   return (
     <div>
