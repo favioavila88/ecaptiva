@@ -10,7 +10,7 @@ const IconColumn = () => {
           <div className="imagen-logo-footer">
             <img src={logofooter} className="logo-footer" />
           </div>
-          <div className="name-logo-footer">Captiva Software, LLC</div>
+          <div className="name-logo-footer">Captiva Software</div>
         </div>
       </div>
     </div>
