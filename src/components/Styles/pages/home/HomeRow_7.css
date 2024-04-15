@@ -61,6 +61,7 @@ figure {
   margin-top: 0;
   margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 7px;
 }
 
 @media only screen and (max-width: 430px) {

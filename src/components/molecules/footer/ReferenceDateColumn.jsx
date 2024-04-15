@@ -17,15 +17,6 @@ const ReferenceDateColumn = () => {
           <div className="info-text">
             <h2 className="email-text">captiva.software@gmail.com</h2>
           </div>
-          <div>
-            <ul className="social-red">
-              <li className="fa fa-facebook fa-lg simple_social"></li>
-              <li className="fa fa-twitter grow"></li>
-              <li className="fa fa-google grow"></li>
-              <li className="fa fa-github grow"></li>
-              <li className="fa fa-codepen grow"></li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
