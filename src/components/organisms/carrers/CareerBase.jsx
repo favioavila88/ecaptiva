@@ -7,23 +7,21 @@ const CareerBase = ({ title, text, image, reverse, subtitle, imageClass }) => {
   const isNullOrEmpty = !subtitle ? true : false;
 
   return (
-    <div className="ca-row-2">
+    <div className="true-story">
       <div
         className={
           imageClass == "before"
-            ? "ca-row-2-container"
-            : "ca-row-2-container before-test"
+            ? "true-story-container"
+            : "true-story-container before-test"
         }
-        style={{
-          display: "grid",
-          gridTemplateColumns: "15% 70% 15%",
-          gridTemplateRows: "100%",
-          gridGap: "10px",
-        }}
       >
         <div></div>
-        <div className={!reverse ? "ca-row-3-content" : "ca-row-2-content"}>
-          <div className={"ca-row-2-content-text"}>
+        <div
+          className={
+            !reverse ? "true-story-right-content" : "true-story-left-content"
+          }
+        >
+          <div className={"true-story-left-content-text"}>
             <h2>{title}</h2>
             {!isNullOrEmpty ? <h3>{subtitle}</h3> : <></>}
             <p
@@ -38,7 +36,7 @@ const CareerBase = ({ title, text, image, reverse, subtitle, imageClass }) => {
               {text}
             </p>
           </div>
-          <div className="ca-row-2-img">
+          <div className="true-story-img">
             <img
               src={image}
               alt="careers_01"

@@ -8,27 +8,19 @@ const CompanyRow_7 = () => {
   const values = Values;
 
   return (
-    <div
-      className="cp-row-7"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="work-with-us-row">
       <div></div>
       <div>
-        <div className="cp-row-7-container">
+        <div className="work-with-us-container">
           <div></div>
           <div>
             <div className="rows-title">
               <Frame text="HOW TO WORK WITH US" lineClass="rows-title-line" />
             </div>
-            <div className="cp-row-7-content">
+            <div className="work-with-us-content">
               {values.map((v) => {
                 return (
-                  <div key={v.id} className="cp-row-7-colum">
+                  <div key={v.id} className="work-with-us-colum">
                     <Card
                       image={v.image}
                       title={v.title}

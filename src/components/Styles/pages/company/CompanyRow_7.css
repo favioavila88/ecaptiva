@@ -1,8 +1,15 @@
+.work-with-us-row {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
 .cp-row-7 {
   background-color: #fafafa;
 }
 
-.cp-row-7-container {
+.work-with-us-container {
   padding: 70px 0px;
   max-width: 100%;
   width: 100%;
@@ -30,46 +37,46 @@
   margin: 0 auto;
 }
 
-.cp-row-7-content {
+.work-with-us-content {
   display: flex;
 }
 
-.cp-row-7-title-column-1 {
+.cc-008ce2 {
   color: #008ce2;
 }
-.cp-row-7-title-column-2 {
+.cc-f9035c {
   color: #f9035c;
 }
-.cp-row-7-title-column-3 {
+.cc-ffc10d {
   color: #ffc10d;
 }
-.cp-row-7-title-column-4 {
+.cc-ff6315 {
   color: #ff6315;
 }
-.cp-row-7-title-column-5 {
+.cc-85aa11 {
   color: #85aa11;
 }
 
-.cp-row-7-colum {
+.work-with-us-colum {
   width: 20%;
   text-align: center;
   padding: 15px;
 }
 
-.cp-row-7-colum img {
+.work-with-us-colum img {
   width: 80px;
   margin-bottom: 15px;
   max-width: 100%;
 }
 
-.cp-row-7-colum h3 {
+.work-with-us-colum h3 {
   font-size: 18px;
   line-height: 1.3em;
   letter-spacing: -1px;
   font-weight: 400;
 }
 
-.cp-row-7-colum p {
+.work-with-us-colum p {
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 16px;
@@ -78,6 +85,13 @@
 }
 
 @media only screen and (max-width: 430px) {
+  .work-with-us-row {
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: 100%;
+    grid-gap: 0px;
+  }
+
   .rows-title div {
     height: 4px;
     width: 150px;
@@ -90,5 +104,37 @@
     color: #000;
     line-height: 1.1em;
     font-weight: 600;
+  }
+
+  .work-with-us-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .work-with-us-colum {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    flex: 2;
+    min-width: 100px;
+  }
+
+  .work-with-us-title {
+    font-size: 1em !important;
+    min-height: 50px !important;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  .work-with-us-colum p {
+    font-size: 0.75em;
+    line-height: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .work-with-us-container {
+    padding: 50px 0px;
   }
 }

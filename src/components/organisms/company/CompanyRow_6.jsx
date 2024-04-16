@@ -4,15 +4,7 @@ import "../../Styles/pages/company/CompanyRow_6.css";
 
 const CompanyRow_6 = () => {
   return (
-    <div
-      className="cp-row-6"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="cp-row-6">
       <div></div>
       <div>
         <div className="cp-row-6-container">
