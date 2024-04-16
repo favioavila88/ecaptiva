@@ -1,4 +1,4 @@
-.services-row {
+.company-row {
   width: 100%;
   height: 100%;
   background-repeat: repeat;
@@ -50,7 +50,7 @@
 }
 
 @media only screen and (max-width: 430px) {
-  .services-row {
+  .company-row {
     margin-top: 90px;
     height: 180px;
     grid-template-columns: 10% 80% 10%;

@@ -1,4 +1,11 @@
-.s-row-2-container {
+.business-models-row {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
+}
+
+.business-models-container {
   padding: 70px 0px 45px 0px;
   max-width: 100%;
   width: 100%;
@@ -22,17 +29,17 @@
   margin-bottom: 70px;
 }
 
-.s-row-2-content {
+.business-models-content {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 90px;
 }
 
-.s-row-2-item img {
+.business-models-item img {
   width: 120px;
 }
 
-.s-row-2-item h3 {
+.business-models-item h3 {
   color: #303030;
   font-size: 24px;
   margin-bottom: 0;
@@ -40,7 +47,7 @@
   font-weight: 400;
 }
 
-.s-row-2-item h5 {
+.business-models-item h5 {
   color: #303030;
   text-transform: uppercase;
   font-size: 12px;
@@ -49,7 +56,7 @@
   margin-bottom: 20px;
 }
 
-.s-row-2-item p {
+.business-models-item p {
   color: #818181;
   font-size: 14px;
   font-weight: 400;
@@ -61,4 +68,63 @@
   height: 4px;
   width: 150px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 430px) {
+  .business-models-container {
+    padding: 15px 0px 15px 0px;
+    max-width: 100%;
+    float: none;
+    width: 100%;
+  }
+
+  .business-models-row {
+    margin-top: 30px;
+    grid-template-columns: 5% 90% 5%;
+    grid-gap: 0px;
+  }
+
+  .business-models-content {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .business-models-item {
+    padding-top: 30px;
+  }
+  .business-models-item h3 {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 15px;
+    min-height: 40px !important;
+  }
+
+  .business-models-item h2 {
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 15px;
+    min-height: 30px !important;
+  }
+
+  .business-models-item img {
+    width: 80px;
+    padding-bottom: 15px;
+    height: 80px;
+  }
+
+  .business-models-item p {
+    padding-top: 20px;
+    color: #818181;
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 1.5em;
+  }
+  /*
+padding: 15px 0px 15px 0px;
+    max-width: 100%;
+    float: none;
+    width: 100%;
+  */
 }

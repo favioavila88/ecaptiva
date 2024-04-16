@@ -1,23 +1,27 @@
-.s-row-4 {
+.we-want-row {
   background-image: url("../../../../assets/organisms/services/servicesRow_4/cta-unique-model-2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 25em;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
 }
 
-.s-row-4-container {
+.we-want-container {
   padding: 100px 0px;
   max-width: 100%;
   width: 100%;
 }
 
-.s-row-4-title {
+.we-want-title {
   max-width: 100%;
   width: 800px;
 }
 
-.s-row-4-title h2 {
+.we-want-title h2 {
   color: #fff;
   font-size: 4em;
   font-family: sailec-medium;
@@ -45,4 +49,28 @@
   color: #2c7c64;
   background: #fff;
   text-shadow: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .we-want-row {
+    grid-template-columns: 5% 90% 5%;
+    grid-gap: 0px;
+    width: 100%;
+    height: 100%;
+    background-attachment: local;
+    background-position: center;
+    margin: 20px 0 0 0;
+    padding: 30px 0 0 0;
+  }
+
+  .we-want-container {
+    padding: 35px 0px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .we-want-title h2 {
+    font-size: 1.5em;
+    width: 85%;
+  }
 }
