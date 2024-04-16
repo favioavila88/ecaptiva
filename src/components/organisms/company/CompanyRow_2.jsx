@@ -7,27 +7,10 @@ import qaRight from "../../../assets/organisms//home/homeRow_5/quotation-right-1
 
 const CompanyRow_2 = () => {
   return (
-    <div
-      className="cp-row-2"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="company-ceo-message">
       <>
         <div></div>
-
-        <div
-          className="cp-row-2-container"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "10% 80% 10%",
-            gridTemplateRows: "100%",
-            gridGap: "10px",
-          }}
-        >
+        <div className="company-ceo-message-container">
           <>
             <div>
               <img src={qaLeft} alt="qaLeft" className="qaLeft" />

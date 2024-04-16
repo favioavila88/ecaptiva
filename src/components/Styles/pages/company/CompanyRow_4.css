@@ -45,3 +45,14 @@
   margin: 0;
   padding: 0;
 }
+
+@media only screen and (max-width: 430px) {
+  .cp-row-4-img-content img {
+    height: 200px;
+    width: 300px;
+    max-height: 100px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}

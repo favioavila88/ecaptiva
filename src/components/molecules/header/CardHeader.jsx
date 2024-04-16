@@ -10,7 +10,7 @@ const CardHeader = ({ image, title, className, subtitle }) => {
     <div>
       <Title text={title} className={className}></Title>
       <Icon image={image}></Icon>
-      <Subtitle text={subtitle} className={className} />
+      {!subtitle ? <></> : <Subtitle text={subtitle} className={className} />}
     </div>
   );
 };

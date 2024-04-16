@@ -21,7 +21,7 @@
   color: #818181;
 }
 
-.ca-row-3-content {
+.true-story-right-content {
   display: flex;
   align-items: center;
   gap: 40px;
@@ -33,4 +33,21 @@
 
 .ca-row-3-img img {
   width: 520px;
+}
+
+@media only screen and (max-width: 430px) {
+  .true-story-right-content {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .true-story-left-content-text h2 {
+    font-size: 1em;
+  }
+
+  .ca-row-3-content-text p {
+    font-size: 16px;
+    line-height: 29px;
+    color: #818181;
+  }
 }

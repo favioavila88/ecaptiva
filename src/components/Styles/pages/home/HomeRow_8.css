@@ -1,6 +1,10 @@
+.our-differentiators {
+  padding-top: 70px;
+}
+
 .our-differentiators-container {
   display: grid;
-  padding: 70px 0px;
+  padding: 30px 0px;
   width: 100%;
   float: none;
   grid-template-columns: 15% 70% 15%;

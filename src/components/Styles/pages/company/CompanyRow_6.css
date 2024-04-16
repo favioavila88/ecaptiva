@@ -1,6 +1,10 @@
 .cp-row-6 {
   padding-top: 35px;
   padding-bottom: 35px;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 0px;
 }
 
 .cp-row-6-container {
@@ -42,4 +46,45 @@
 
 .cp-row-6-text-content div {
   margin-top: 35px;
+}
+
+@media only screen and (max-width: 430px) {
+  .cp-row-6 {
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 100%;
+    grid-gap: 0px;
+    padding-bottom: 0px;
+  }
+
+  .cp-row-6-container {
+    background-image: url("../../../../assets/organisms/company/companyRow_6/mapCaptiva-remove.png");
+    background-size: contain;
+  }
+
+  .cp-row-6-text-content {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0px;
+  }
+  .cp-row-6-text-content h3 {
+    font-size: 0.75em;
+  }
+
+  .cp-row-6-text-content p {
+    font-size: 0.9em;
+    line-height: 1.25em;
+    color: #4a4a4a;
+  }
+
+  .cp-row-6-text-content div {
+    margin-top: 15px;
+  }
+
+  .cp-row-6-block {
+    height: 150px;
+  }
+
+  .cp-row-6-img-content img {
+    width: 80px;
+  }
 }
