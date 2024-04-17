@@ -4,18 +4,18 @@ import "../../Styles/pages/company/CompanyRow_6.css";
 
 const CompanyRow_6 = () => {
   return (
-    <div className="cp-row-6">
+    <div className="our-talent">
       <div></div>
       <div>
-        <div className="cp-row-6-container">
-          <div className="cp-row-6-block">
-            <div className="cp-row-6-text-content">
+        <div className="our-talent-container">
+          <div className="our-talent-block">
+            <div className="our-talent-text-content">
               <h3>Our talent, everywhere</h3>
               <p>
                 Our US and Latin American-based teams overlap 6 to 8 working
                 hours, and are ready to start rocking your projects.
               </p>
-              <div className="cp-row-6-img-content">
+              <div className="our-talent-img-content">
                 <img src={contactUs} alt="contactUs" />
               </div>
             </div>

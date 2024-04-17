@@ -4,7 +4,7 @@ import "../../Styles/pages/company/CompanyRow_1.css";
 
 const CompanyRow_1 = () => {
   return (
-    <div className="services-row">
+    <div className="company-row">
       <>
         <div></div>
         <div>

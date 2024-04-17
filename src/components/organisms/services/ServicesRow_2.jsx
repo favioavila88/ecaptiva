@@ -8,25 +8,17 @@ import Services from "../../../constants/Services";
 const ServicesRow_2 = () => {
   return (
     <div>
-      <div
-        className="s-row-2"
-        style={{
-          display: "grid",
-          gridTemplateColumns: "15% 70% 15%",
-          gridTemplateRows: "100%",
-          gridGap: "10px",
-        }}
-      >
+      <div className="business-models-row">
         <div></div>
         <div>
-          <div className="s-row-2-container">
+          <div className="business-models-container">
             <div className="rows-title">
               <Frame text="BUSINESS MODELS" lineClass="s-row-2-line" />
             </div>
-            <div className="s-row-2-content">
+            <div className="business-models-content">
               {Services.map((service) => {
                 return (
-                  <div key={service.id} className="s-row-2-item">
+                  <div key={service.id} className="business-models-item">
                     <Card
                       image={service.image}
                       title={service.title}

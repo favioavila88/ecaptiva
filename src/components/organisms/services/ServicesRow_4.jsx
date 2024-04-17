@@ -6,19 +6,11 @@ import "../../Styles/pages/services/ServicesRow_4.css";
 
 const ServicesRow_4 = () => {
   return (
-    <div
-      className="s-row-4"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="we-want-row">
       <div></div>
       <div>
-        <div className="s-row-4-container">
-          <div className="s-row-4-title">
+        <div className="we-want-container">
+          <div className="we-want-title">
             <h2>WE WANT TO HEAR FROM YOU</h2>
           </div>
           <span>
