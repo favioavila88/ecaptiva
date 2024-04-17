@@ -4,21 +4,13 @@ import "../../Styles/pages/carrers/CarrersRow_5.css";
 
 const CarrersRow_5 = () => {
   return (
-    <div
-      className="ca-row-5"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "15% 70% 15%",
-        gridTemplateRows: "100%",
-        gridGap: "10px",
-      }}
-    >
+    <div className="join-team-row">
       <div></div>
       <div>
-        <div className="ca-row-5-container">
-          <div className="ca-row-5-content">
-            <div className="ca-row-5-content-text">
-              <h3 className="ca-row-5-tile">
+        <div className="join-team-container">
+          <div className="join-team-content">
+            <div className="join-team-text">
+              <h3 className="join-team-title">
                 JOIN OUR TEAM, BECOME A TRUEPER!
               </h3>
               <div className="ca-row-5-line"></div>
@@ -30,7 +22,7 @@ const CarrersRow_5 = () => {
               </p>
             </div>
 
-            <NavLink className={"ca-row-5-button"} to="/getAnEstimate">
+            <NavLink className={"join-team-button"} to="/getAnEstimate">
               APPLY HERE!
             </NavLink>
           </div>

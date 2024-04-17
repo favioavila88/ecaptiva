@@ -1,8 +1,12 @@
-.ca-row-5 {
+.join-team-row {
   background-color: #f7f7f7;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: 100%;
+  grid-gap: 10px;
 }
 
-.ca-row-5-container {
+.join-team-container {
   padding: 70px 0px;
   max-width: 100%;
   float: none;
@@ -10,12 +14,12 @@
   width: 100%;
 }
 
-.ca-row-5-content {
+.join-team-content {
   display: flex;
   gap: 100px;
 }
 
-.ca-row-5-tile {
+.join-team-title {
   font-size: 32px;
   margin-bottom: 15px;
   color: #4a4a4a;
@@ -24,21 +28,21 @@
   padding-right: 200px;
 }
 
-.ca-row-5-content-text div {
+.join-team-text div {
   background-color: #1d63f5;
   height: 8px;
   width: 90px;
   margin-bottom: 25px;
 }
 
-.ca-row-5-content-text p {
+.join-team-text p {
   font-size: 16px;
   line-height: 29px;
   color: #818181;
   font-weight: 400;
 }
 
-.ca-row-5-button {
+.join-team-button {
   width: 1000px;
   font-size: 30px;
   border-radius: 15px;
@@ -51,8 +55,43 @@
   transition: all 0.3s ease-in-out;
 }
 
-.ca-row-5-button:hover {
+.join-team-button:hover {
   background: #f7f7f7;
   color: #1d63f5;
   border: 1px solid #1d63f5;
+}
+
+@media only screen and (max-width: 430px) {
+  .join-team-row {
+    grid-template-columns: 10% 80% 10%;
+    grid-gap: 0px;
+    padding: 30px 0;
+  }
+
+  .join-team-title {
+    width: 200px;
+    font-size: 1.25em;
+  }
+
+  .join-team-content {
+    display: block;
+  }
+
+  .join-team-container {
+    padding: 30px 0;
+  }
+
+  .join-team-text p {
+    font-size: 0.9em;
+    line-height: 20px;
+    color: #818181;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+
+  .join-team-button {
+    font-size: 0.75em;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+  }
 }
