@@ -36,8 +36,11 @@ input:invalid + .error-msg {
 }
 
 .formulary-content {
-  font-family: Monserrat, sailec-medium;
   margin-top: 15px;
+}
+
+.formulary-container {
+  padding: 45px 85px 70px 70px;
 }
 
 button[type="submit"] {
@@ -58,6 +61,11 @@ button[type="submit"] {
 .screen-body-item {
   flex: 1;
   padding: 50px;
+}
+
+.formulary-section {
+  background-color: #fff;
+  width: 70%;
 }
 
 .app-form-group {
@@ -152,4 +160,29 @@ input:-webkit-autofill:focus {
   border: none;
 
   border-color: #fff;
+}
+
+@media only screen and (max-width: 430px) {
+  .formulary-section {
+    background-color: #fff;
+    width: 100%;
+  }
+
+  .formulary-container {
+    padding: 0px 15px 30px 15px;
+  }
+
+  .app-form-label {
+    font-size: 0.75em;
+  }
+
+  .app-form-control {
+    font-size: 0.75em;
+  }
+
+  .app-form-input {
+    font-size: 0.75em;
+    padding: 5px 10px 5px 10px;
+    margin-top: 0px;
+  }
 }

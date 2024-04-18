@@ -93,13 +93,8 @@ const Formulary = () => {
   }
 
   return (
-    <div
-      style={{
-        backgroundColor: "#fff",
-        width: "70%",
-      }}
-    >
-      <div style={{ padding: "45px 85px 70px 70px" }}>
+    <div className="formulary-section">
+      <div className="formulary-container">
         <form onSubmit={sendEmail}>
           <div>
             <div className="app-form-group">
