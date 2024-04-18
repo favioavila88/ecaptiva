@@ -4,8 +4,8 @@ import "../../Styles/molecules/contactUs/ContactUsColumn_1.css";
 const ContactUsColumn_1 = () => {
   return (
     <>
-      <div style={{ width: "45%", height: "100%", backgroundColor: "#fff" }}>
-        <div className="contact-us-container">
+      <div className="contact-us-section">
+        <div className="contact-us-message-container">
           <div className="contact-us-title">
             <h1>CONTACT US!</h1>
           </div>

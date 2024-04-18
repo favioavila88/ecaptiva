@@ -12,7 +12,8 @@ const CarrersRow_6 = () => {
       <div></div>
       <div>
         <div className="apply-row-container">
-          <div className="apply-row-title">APPLY NOW IF YOU:</div>
+          <div className="apply-row-title">APPLY NOW IF YOU</div>
+          <div className="apply-row-line"></div>
           <div className="apply-row-content">
             <div className="apply-row-item">
               <img src={ícones5} alt="ícones5" />
