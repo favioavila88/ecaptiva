@@ -113,9 +113,11 @@ button[type="submit"] {
   max-width: 100%;
   min-width: 100%;
   max-height: 60px;
-  min-height: 35px;
+  min-height: 27px;
   overflow: hidden;
   resize: block;
+  padding: 5px 0 0px 0;
+  padding-bottom: 0px;
 }
 
 .app-form-control::placeholder {

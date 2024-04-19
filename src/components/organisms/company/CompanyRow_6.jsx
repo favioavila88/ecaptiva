@@ -16,7 +16,9 @@ const CompanyRow_6 = () => {
                 hours, and are ready to start rocking your projects.
               </p>
               <div className="our-talent-img-content">
-                <img src={contactUs} alt="contactUs" />
+                <a href="/getAnEstimate">
+                  <img src={contactUs} alt="contactUs" />
+                </a>
               </div>
             </div>
           </div>
