@@ -41,7 +41,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleClick = (event) => {
-      console.log("opened:", event.target.id);
       if (event.target.id == "") {
         const dropDownMenu = document.querySelector(".dropdown_menu");
         if (dropDownMenu && dropDownMenu.classList[1] == "open") {
